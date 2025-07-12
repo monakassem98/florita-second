@@ -1,0 +1,854 @@
+{
+  "users": [
+    {
+      "name": "Mona Kassem",
+      "email": "mona.kassem9999@gmail.com",
+      "phoneNumber": "01067237834",
+      "id": "f69f"
+    },
+    {
+      "id": "5e69",
+      "name": "Ahmed Samy",
+      "email": "ahmed87@gmail.com",
+      "phoneNumber": "0155632888"
+    },
+    {
+      "name": "Ali Hassan",
+      "email": "alihassan8776@gmail.com",
+      "phoneNumber": "01289654727",
+      "id": "6e4f"
+    },
+    {
+      "id": "7119",
+      "name": "Huda Salah",
+      "email": "hudasalah332@gmail.com",
+      "phoneNumber": "01523674123"
+    },
+    {
+      "id": "5f96",
+      "name": "Esraa Fawzy",
+      "email": "esraafawzy678@gmail.com",
+      "phoneNumber": "01152697896"
+    },
+    {
+      "id": "8323",
+      "name": "Marwa Khaled",
+      "email": "marwa889@gmail.com",
+      "phoneNumber": "01245369874"
+    },
+    {
+      "id": "d641",
+      "name": "Maged Hany",
+      "email": "magehany678@gmail.com",
+      "phoneNumber": "01123698541"
+    },
+    {
+      "id": "0b19",
+      "name": "Reham Magdy",
+      "email": "rehammagdy456@gmail.com",
+      "phoneNumber": "01123659655"
+    },
+    {
+      "id": "4d34",
+      "name": "Hadeer Hossam",
+      "email": "hadeer65@gmail.com",
+      "phoneNumber": "01258963254"
+    },
+    {
+      "name": "Rana Refaat",
+      "email": "ranarefaat345@gmail.com",
+      "phoneNumber": "01069854145",
+      "id": "88d8"
+    },
+    {
+      "id": "0e78",
+      "name": "Mona Ahmed",
+      "email": "monaahmed98@gmail.com",
+      "phoneNumber": "1265999889"
+    },
+    {
+      "id": "a1c3",
+      "name": "Mona Kassem",
+      "email": "mona.kassem9999@gmail.com",
+      "phoneNumber": "01067237834"
+    },
+    {
+      "id": "067b",
+      "name": "Mona Kassem",
+      "email": "mona.kassem9999@gmail.com",
+      "phoneNumber": "01067237838"
+    }
+  ],
+  "floralProducts": [
+    {
+      "id": "f043",
+      "name": "Kalanchoe",
+      "description": "Kalanchoe in a pot is not just a plant, it's a little healer that will always be by your side. Kalanchoe is known for its healing properties and its ability to purify the air from bacteria.\nThis plant is undemanding in care and does not require special conditions. Kalanchoe prefers bright indirect light and moderate watering. It can become a beautiful decoration for your home or office.\nWe offer you healthy and beautiful kalanchoes in pots. They will become a bright accent in your interior and bring you joy and good mood.\nDon't miss the opportunity to buy a kalanchoe in a pot and brighten up your life with vivid colors!\n\n",
+      "price": 3940,
+      "discountedPrice": 600,
+      "stockQuantity": 2,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/3ed25c0f-4f9c-4b79-5399-33929915d900/medium",
+      "category": "plants",
+      "size": "medium",
+      "composition": [
+        {
+          "name": "Roses 50-60 cm",
+          "quantity": 14,
+          "unit": "pcs"
+        },
+        {
+          "name": "Ribbon",
+          "quantity": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "e324",
+      "name": "Crassula",
+      "description": "Crassula is your reliable assistant in creating coziness and harmony at home! This unique succulent, also known as the \"money tree,\" will be a wonderful addition to your interior and will bring good luck to your home.\nCrassula has many advantages: it is unpretentious in care, can go a long time without watering, and even purifies the air from harmful microorganisms and viruses.",
+      "price": 3940,
+      "discountedPrice": 900,
+      "stockQuantity": 1,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/8e6d2cd8-3c08-4a60-4685-c08cb4431100/medium",
+      "category": "plants",
+      "size": "medium",
+      "composition": [
+        {
+          "name": "Roses 50-60 cm",
+          "quantity": 14,
+          "unit": "pcs"
+        },
+        {
+          "name": "Ribbon",
+          "quantity": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "f660",
+      "name": "Orchid Phalaenopsis",
+      "description": "Orchid is a beautiful tropical flower with magnificent blooms. It is best to keep it in a transparent pot, as its roots need light.",
+      "price": 4293,
+      "discountedPrice": 1010,
+      "stockQuantity": 3,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/87706cc2-e9d4-4c2f-0a2f-5425f2fb6600/large",
+      "category": "plants",
+      "size": "large",
+      "composition": [
+        {
+          "name": "Roses 50-60 cm",
+          "quantity": 14,
+          "unit": "pcs"
+        },
+        {
+          "name": "Ribbon",
+          "quantity": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "e372",
+      "name": "An air kiss with candies and tea",
+      "description": "A gift set is the perfect way to express your feelings and delight a loved one.\nThis set has everything to give the feeling of a holiday and happiness. A box of Raffaello candies will please with its delicate taste, tea will give a feeling of warmth and coziness, and the \"Airy Kiss\" bouquet of pink roses, bush chrysanthemums, and salal will give a feeling of spring and freshness.\nThis gift set will make a great present for any holiday or just as a sign of attention and care. It will bring joy and a smile to the one who receives it.\nDon't miss the opportunity to please your loved ones!",
+      "price": 5102,
+      "discountedPrice": 0,
+      "stockQuantity": 7,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/1fca0443-7bc3-4eb7-45d9-45bddfe2ab00/medium",
+      "category": "gifts",
+      "size": "large",
+      "composition": [
+        {
+          "name": "Roses 50-60 cm",
+          "quantity": 14,
+          "unit": "pcs"
+        },
+        {
+          "name": "Ribbon",
+          "quantity": 1,
+          "unit": "pcs"
+        }
+      ]
+    },
+    {
+      "id": "11a4",
+      "name": "Bouquet 'Trembling heart'",
+      "description": "This bouquet is a true work of art, created for those who appreciate sophistication and elegance. It contains the most delicate and beautiful flowers: spray roses, pink alstroemerias, cymbidium orchids, and ruscus.",
+      "price": 6014,
+      "discountedPrice": 200,
+      "stockQuantity": 5,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/3d45382c-78c2-489f-c1ee-ded9e1df0900/medium",
+      "category": "flowers",
+      "size": "large"
+    },
+    {
+      "id": "9310",
+      "name": "Flower box ",
+      "description": "This amazing colorful box that contains  Spray Roses, Chrysanthemums and Carnations will make you smile even if the weather outside is not the best one. The fragrance of fresh flowers and tasty cookies will make you plunge in happy childhood and sunny summer.\n",
+      "price": 4970,
+      "discountedPrice": 0,
+      "stockQuantity": 3,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/2f4cc3aa-ebc8-47e7-4a98-da69ba944b00/medium",
+      "category": "flowers",
+      "size": "medium"
+    },
+    {
+      "id": "d569",
+      "name": "Bouquet 'Mother Nature'",
+      "description": "Delicate and truly summery bouquet of sky-blue alstroemerias and ivory roses, framed in a lush green pistachio leaves, will make a great gift for any occasion!",
+      "price": 3082,
+      "discountedPrice": 100,
+      "stockQuantity": 2,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/01055318-053a-4aec-3a4b-700d750ae300/medium",
+      "category": "flowers",
+      "size": "Small Bouquet"
+    },
+    {
+      "id": "4e81",
+      "name": "Bouquet 'Evening in Venice'",
+      "description": "In this bouquet, everything reminds of a romantic evening in Venice. Delicate pink roses, peony-like bush roses, chrysanthemums, and carnations, complemented by statice, create an atmosphere of refined elegance. Modern packaging emphasizes the beauty of this bouquet, which will be the perfect gift to convey your romantic feelings.",
+      "price": 4027,
+      "discountedPrice": 200,
+      "stockQuantity": 3,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/84cd8f04-5168-4760-91d7-b6289ff9a700/medium",
+      "category": "flowers",
+      "size": "medium"
+    },
+    {
+      "id": "8225",
+      "name": "Bouquet 'Ravishing Red Roses'",
+      "description": "Indulge in the grandeur of ravishing red roses. Each rose, carefully selected for its beauty and elegance, is accompanied by a single pistachio and a charming ribbon. This bouquet makes a bold and passionate statement, expressing deep affection and admiration.",
+      "price": 3927,
+      "discountedPrice": 200,
+      "stockQuantity": 2,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/e8a8c2ef-e293-47df-78f5-f8aa4b52a300/medium",
+      "category": "roses",
+      "size": "Dozen Roses"
+    },
+    {
+      "id": "a89e",
+      "name": "Bouquet 'Flight of Feelings'",
+      "description": "This magnificent bouquet consists of three shrub roses. The first rose is a delicate pink, measuring 50 centimeters in length. Its petals are painted in a soft pink hue, giving the bouquet a romantic character. The second rose is dazzlingly white, and its size is also 50 centimeters. It embodies purity and nobility, creating a striking contrast with the pink rose. The third rose has a creamy shade and the same length. Its tender petals have a warm and soft color, which gives the bouquet a warm and cozy atmosphere.",
+      "price": 6612,
+      "discountedPrice": 300,
+      "stockQuantity": 2,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/357ccb7b-aada-480a-e70c-bab7492bcd00/medium",
+      "category": "roses",
+      "size": "Double Dozen Roses"
+    },
+    {
+      "id": "8eef",
+      "name": "Bouquet 'Precious Necklace: yellow, red and pink Roses'",
+      "description": "Like precious stones, flowers captivate with their beauty. This bouquet is speckled with diverse shades of color. It conveys only the best and most joyous of feelings.",
+      "price": 9147,
+      "discountedPrice": 300,
+      "stockQuantity": 3,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/2d657ae0-53fc-4a05-8ae9-530f34ad1900/medium",
+      "category": "roses",
+      "size": "Double Dozen Roses"
+    },
+    {
+      "id": "81f6",
+      "name": "Bouquet 'Two Dozen Pink and Yellow Roses'",
+      "description": "A soft combination of pastel pink roses and sunny yellow roses creates an unrepeatable composition, which brings positive mood and reminds about the most pleasant moments.",
+      "price": 9494,
+      "discountedPrice": 0,
+      "stockQuantity": 1,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/5170d7b4-5f07-42ff-3a7d-5102ada30000/medium",
+      "category": "roses",
+      "size": "Double Dozen Roses"
+    },
+    {
+      "id": "80fa",
+      "name": "A bouquet of 15 yellow roses",
+      "description": "A bouquet of 15 yellow roses is a sunny message filled with warmth and joy. This bright bouquet will make a wonderful gift for any occasion: be it a birthday, anniversary, or just a desire to cheer up a loved one.\nEach flower in the bouquet has been carefully selected to create a harmonious combination of beauty and elegance. Yellow roses symbolize joy, friendship, and admiration. They will make a beautiful decoration for any interior and fill it with sunlight.\nOrder a bouquet of 15 yellow roses right now and give unforgettable emotions with delivery right to the door. Your choice is a guarantee of quality and freshness, as we care for each bouquet as if it were our own gift.",
+      "price": 4075,
+      "discountedPrice": 0,
+      "stockQuantity": 4,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/56b0f0d2-0c1d-4931-2ec3-26d82133c200/medium",
+      "category": "roses",
+      "size": "Dozen Roses"
+    },
+    {
+      "id": "2b77",
+      "name": "Flower basket 'Florence'",
+      "description": "The \"Florence\" bouquet is the embodiment of tenderness and elegance. It is created from roses, pistachios, and ruscus, which harmoniously complement each other. The \"Florence\" bouquet will give a feeling of freshness and lightness, fill the space with a delicate aroma and charm.\nEach flower in this bouquet has its own meaning:\n- roses symbolize love and passion;\n- pistachios serve as the finishing touch, giving the bouquet sophistication and refinement;\n- ruscus fills the bouquet with freshness and lightness.\nThe \"Florence\" bouquet is suitable for any occasion - it will delight with its beauty and aroma, creating an atmosphere of coziness and warmth.\nMake your choice in favor of quality and uniqueness - choose our \"Florence\" bouquet!",
+      "price": 5766,
+      "discountedPrice": 200,
+      "stockQuantity": 2,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/9b62f7a7-607d-411e-96ca-d385c60ab000/medium",
+      "category": "roses",
+      "size": "Dozen Roses"
+    },
+    {
+      "id": "8be8",
+      "name": "Arrangement 'Gentle whisper'",
+      "description": "The bouquet in a woven basket \"Tender Whisper\" is the embodiment of tenderness and elegance. It is created from spray roses, gypsophila, pistachios, and ruscus, which harmoniously combine with each other.\nSpray roses symbolize love and passion, gypsophila represents purity and innocence, pistachios add originality to the bouquet, and ruscus serves as the finishing touch, giving the composition volume and lushness.\nThe bouquet in a woven basket \"Tender Whisper\" will make a wonderful gift for any occasion. It is suitable for expressing love, gratitude, respect, or simply as a sign of attention.\nWe guarantee the high quality of our bouquets and timely delivery. Allow yourself and your loved ones to enjoy the beauty and tenderness of the bouquet in a woven basket \"Tender Whisper\"!",
+      "price": 4324,
+      "discountedPrice": 50,
+      "stockQuantity": 3,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/2c6c41e3-c58d-488e-7484-201ac0f6b400/large",
+      "category": "roses",
+      "size": "Dozen Roses"
+    },
+    {
+      "id": "f30d",
+      "name": "Bouquet 'Malachite'",
+      "description": "The \"Malachite\" bouquet is a true work of art, created from white and yellow roses, spray carnations, lisianthus, tanacetums, and hypericum.\nThe \"Malachite\" bouquet amazes with its beauty and sophistication. It will make a wonderful gift for any holiday or event.\nWhite and yellow roses symbolize purity and joy, spray carnations represent love and devotion, lisianthus stands for tenderness and elegance, tanacetums for longevity and prosperity, while hypericum adds brightness and originality to the bouquet.\nThe \"Malachite\" bouquet is suitable for any interior and will bring a sense of beauty and harmony.\nDon't miss the opportunity to delight your loved ones! Give them the \"Malachite\" bouquet and give yourself the pleasure of their sincere joy!",
+      "price": 3260,
+      "discountedPrice": 200,
+      "stockQuantity": 2,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/cdcbd00b-cc2f-44bb-d9e0-193174b41400/medium",
+      "category": "flowers",
+      "size": "Big Bouquet"
+    },
+    {
+      "id": "293b",
+      "name": "Bouquet 'A ray of light'",
+      "description": "The coy but expressive bouquet of white gerberas and alstroemerias can be a sign of your attention and amiability. Don't hesitate to send this floral arrangement to your friend or relative as your greetings and wish of an excellent day!",
+      "price": 3430,
+      "discountedPrice": 50,
+      "stockQuantity": 2,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/c6fba433-7841-42bf-db4e-e85321e99f00/medium",
+      "category": "flowers",
+      "size": "Small Bouquet"
+    },
+    {
+      "id": "3390",
+      "name": "Bouquet 'Bright holiday'",
+      "description": "The \"Bright Celebration\" bouquet is a vivid and colorful combination of gerberas, alstroemerias, bush chrysanthemums and roses, irises, carnations, pistachios, and willow. This bouquet will make a wonderful gift for any occasion, whether it be a wedding, anniversary, or simply a desire to please a loved one.\nGerberas and alstroemerias symbolize joy and happiness, bush chrysanthemums add sophistication and elegance to the bouquet, while roses make it brighter and more intense. Irises and carnations give the bouquet tenderness and sensuality, and pistachio and willow add originality and style. Together they create a harmonious and stylish composition that will leave no one indifferent.\nThe \"Bright Celebration\" bouquet can be arranged in various shades, from soft pastels to bright and rich, allowing you to choose the option that suits you best.\nDon't miss the opportunity to delight your loved ones! Give them the \"Bright Celebration\" bouquet and give yourself the pleasure of their sincere joy!",
+      "price": 3381,
+      "discountedPrice": 300,
+      "stockQuantity": 2,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/39c5eb66-acf1-4bf2-96c7-09efdd5d3300/medium",
+      "category": "flowers",
+      "size": "Big Bouquet"
+    },
+    {
+      "id": "75d4",
+      "name": "Amaryllis red",
+      "description": "This magnificent member of the Amaryllidaceae family will become a true decoration for your home, filling it with bright colors and unique charm.",
+      "price": 3182,
+      "discountedPrice": 100,
+      "stockQuantity": 2,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/d09324a5-46be-44e1-cd2f-0c9d9c738e00/medium",
+      "category": "plants",
+      "size": "medium"
+    },
+    {
+      "id": "4322",
+      "name": "Anthurium",
+      "description": "Believe me, wherever you place the anthurium, this luxurious exotic flower will become the highlight of the interior. Its exotic appearance and bright red flowers will attract admiring glances, as well as happiness and wealth into the home.",
+      "price": 3182,
+      "discountedPrice": 0,
+      "stockQuantity": 1,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/299b1680-1bf8-4818-2681-07475c882b00/large",
+      "category": "plants",
+      "size": "medium"
+    },
+    {
+      "id": "742a",
+      "name": "Guzmania",
+      "description": "An original tropical plant that can be easily kept as a houseplant. Guzmania is an epiphyte, as the plant gets the necessary moisture and nutrients directly from the air.",
+      "price": 3182,
+      "discountedPrice": 200,
+      "stockQuantity": 4,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/1e4c98a9-1643-413c-63da-9f0096783600/medium",
+      "category": "plants",
+      "size": "large"
+    },
+    {
+      "id": "6052",
+      "name": "Dracaena",
+      "description": "Dracaena or indoor palm is a guest from the hot tropics. Despite its exotic origin, the plant is unpretentious in care and perfectly moisturizes the air in the home or office. The flower needs a lot of light and daily watering.",
+      "price": 3181,
+      "discountedPrice": 80,
+      "stockQuantity": 2,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/6a4669f3-f4ea-4b7b-3db9-f56df0f44200/medium",
+      "category": "plants",
+      "size": "medium"
+    },
+    {
+      "id": "62cc",
+      "name": "Happy day",
+      "description": "If you are looking for the perfect gift that will bring joy and happiness, then you will love our exclusive composition of a white plush bear, a bouquet of 9 red roses, 5 helium balloons, and a box of Raffaello candies!\nThis set is the perfect combination of tenderness and passion, which will give unforgettable emotions and leave vivid memories.\nThe white plush bear symbolizes care and tenderness, the red roses represent love and passion, the helium balloons will add lightness and airiness, and the Raffaello candies will be a pleasant addition to the gift.\nSuch a set is suitable for any occasion and will delight with its variety and beauty.\nMake your choice for quality and uniqueness - choose our gift set!\n\n",
+      "price": 7056,
+      "discountedPrice": 1000,
+      "stockQuantity": 2,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/78bfb364-2289-402d-802e-2c21939d4100/medium",
+      "category": "gifts",
+      "size": "large"
+    },
+    {
+      "id": "44ee",
+      "name": "Attraction with candies, coffee, and a teddy bear",
+      "description": "The composition \"Attraction\" is the perfect gift for any occasion. It combines tenderness and care, creating a unique atmosphere of warmth and coziness.\nIn this composition, you will find a soft plush bear, a box of Merci chocolate candies, a package of aromatic instant coffee, and a bouquet of spray roses and irises.\nThe plush bear will become a faithful friend and companion in games, the Merci chocolate candies will delight with their tender taste, a cup of aromatic coffee will warm you up on a cold evening, and the bouquet of spray roses and irises will give a feeling of spring and freshness.\nThis composition will make an excellent gift for any holiday or simply as a sign of attention and care. It will bring joy and a smile to the one who receives it.",
+      "price": 7357,
+      "discountedPrice": 400,
+      "stockQuantity": 3,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/c1acf76c-93b8-4d1e-82b7-0bfcf846b500/medium",
+      "category": "gifts",
+      "size": "large"
+    },
+    {
+      "id": "855d",
+      "name": "Sunbeam: Chrysanthemums and Sunflowers",
+      "description": "Fill the special day of your dear one with warmth and sunlight! Bright as a summer noon, a bouquet of sunflowers will fill the heart with joyful trembling, and a touching plush toy will tell about your most tender feelings. After all, nothing is as uplifting as the bright colors and sincere care of our loved ones.\n\n\n",
+      "price": 7605,
+      "discountedPrice": 600,
+      "stockQuantity": 2,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/4b3b91de-5712-4373-9762-d56a23284e00/medium",
+      "category": "gifts",
+      "size": "medium"
+    },
+    {
+      "id": "5a11",
+      "name": "Bouquet and teddy bear: Chamomiles and Chrysanthemums",
+      "description": "Can you imagine a more charming gift than a touching bouquet of daisies and a teddy bear? For the girl, this cute surprise will be the best confirmation of your tenderness and care. And the little birthday child with no doubt will be happy with the new plush toy.\n\n",
+      "price": 8251,
+      "discountedPrice": 200,
+      "stockQuantity": 1,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/9f294ae0-1e81-4c84-4a06-7d578a45bd00/medium",
+      "category": "gifts",
+      "size": "large"
+    },
+    {
+      "id": "acea",
+      "name": "The \"Cloud of Tenderness\" composition with helium balloons",
+      "description": "This floral cloud of tenderness will surely soar into the air in such a wonderful company of bright helium balloons! Send it to someone special for you, and a whole sea of delight is guaranteed!",
+      "price": 10523,
+      "discountedPrice": 3000,
+      "stockQuantity": 5,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/26a32f0e-e444-44b4-b7c9-2fdcc496bb00/large",
+      "category": "gifts",
+      "size": "large"
+    },
+    {
+      "id": "838f",
+      "name": "Set of Roses and Macarons & Card",
+      "description": "Surprise someone special with our elegant set featuring a bouquet of fresh roses, a selection of delicate macarons, and a personalized greeting card. The vibrant roses add a touch of natural beauty and fragrance, while the assorted macarons offer a delightful array of flavors and colors. This thoughtfully arranged set, complete with a heartfelt greeting card, is perfect for any occasion, expressing your sentiments with style and sweetness.\n\n",
+      "price": 11434,
+      "discountedPrice": 2000,
+      "stockQuantity": 2,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://images.myglobalflowers.com/9b41d4ea-d64a-4954-a73c-862c577c1e00/medium",
+      "category": "gifts",
+      "size": "large"
+    },
+    {
+      "id": "6585",
+      "name": " Purely White Tulips",
+      "description": "Tulips are no longer just a flower for spring. Although we do have 400 acres blooming in our Skagit Valley fields each spring, we also select the biggest tulip bulbs from each year's crop to force in our greenhouses throughout the other months of the year. And because we can control the growing of our flowers from the earliest stages, Tulips.com can also ensure that you will be receiving the most outstanding product available!",
+      "price": 3998,
+      "discountedPrice": 0,
+      "stockQuantity": 5,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://www.tulips.com/images/popup/White-Tulips.jpg",
+      "category": "tulips",
+      "size": "Big Bouquet"
+    },
+    {
+      "id": "94cb",
+      "name": "Orange Tulips",
+      "description": "Tulips are no longer just a flower for spring. Although we do have 400 acres blooming in our Skagit Valley fields each spring, we also select the biggest tulip bulbs from each year's crop to force in our greenhouses throughout the other months of the year. And because we can control the growing of our flowers from the earliest stages, Tulips.com can also ensure that you will be receiving the most outstanding product available!",
+      "price": 3905,
+      "discountedPrice": 5,
+      "stockQuantity": 1,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://s3.amazonaws.com/cdn.tulips.com/images/large/Orange-Tulips.jpg",
+      "category": "tulips",
+      "size": "Big Bouquet"
+    },
+    {
+      "id": "d740",
+      "name": "Golden Yellow Tulips",
+      "description": "Tulips are no longer just a flower for spring. Although we do have 400 acres blooming in our Skagit Valley fields each spring, we also select the biggest tulip bulbs from each year's crop to force in our greenhouses throughout the other months of the year. And because we can control the growing of our flowers from the earliest stages, Tulips.com can also ensure that you will be receiving the most outstanding product available!\n\n",
+      "price": 4500,
+      "discountedPrice": 100,
+      "stockQuantity": 1,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://s3.amazonaws.com/cdn.tulips.com/images/large/Fresh-Cut-Yellow-Tulips.jpg",
+      "category": "tulips",
+      "size": "Big Bouquet"
+    },
+    {
+      "id": "5624",
+      "name": "Passionate Purple Tulips",
+      "description": "Tulips are no longer just a flower for spring. Although we do have 400 acres blooming in our Skagit Valley fields each spring, we also select the biggest tulip bulbs from each year's crop to force in our greenhouses throughout the other months of the year. And because we can control the growing of our flowers from the earliest stages, Tulips.com can also ensure that you will be receiving the most outstanding product available!\n\n",
+      "price": 5400,
+      "discountedPrice": 30,
+      "stockQuantity": 5,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://s3.amazonaws.com/cdn.tulips.com/images/large/Purple-Tulips.JPG",
+      "category": "tulips",
+      "size": "Big Bouquet"
+    },
+    {
+      "id": "199c",
+      "name": "Pretty in Pink Tulips",
+      "description": "Tulips are no longer just a flower for spring. Although we do have 400 acres blooming in our Skagit Valley fields each spring, we also select the biggest tulip bulbs from each year's crop to force in our greenhouses throughout the other months of the year. And because we can control the growing of our flowers from the earliest stages, Tulips.com can also ensure that you will be receiving the most outstanding product available!\n\n",
+      "price": 9400,
+      "discountedPrice": 120,
+      "stockQuantity": 3,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://s3.amazonaws.com/cdn.tulips.com/images/large/Pink-Tulips.jpg",
+      "category": "tulips",
+      "size": "Big Bouquet"
+    },
+    {
+      "id": "01b7",
+      "name": "Sweetheart Tulip Mix",
+      "description": "Tulips are no longer just a flower for spring. Although we do have 400 acres blooming in our Skagit Valley fields each spring, we also select the biggest tulip bulbs from each year's crop to force in our greenhouses throughout the other months of the year. And because we can control the growing of our flowers from the earliest stages, Tulips.com can also ensure that you will be receiving the most outstanding product available!\n\n",
+      "price": 6521,
+      "discountedPrice": 310,
+      "stockQuantity": 3,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://s3.amazonaws.com/cdn.tulips.com/images/large/Bold_And_Beautiful_Tulips.jpg",
+      "category": "tulips",
+      "size": "Big Bouquet"
+    },
+    {
+      "id": "2799",
+      "name": "Lovestruck Light Pink Tulips",
+      "description": "Tulips are no longer just a flower for spring. Although we do have 400 acres blooming in our Skagit Valley fields each spring, we also select the biggest tulip bulbs from each year's crop to force in our greenhouses throughout the other months of the year. And because we can control the growing of our flowers from the earliest stages, Tulips.com can also ensure that you will be receiving the most outstanding product available!\n\n",
+      "price": 4367,
+      "discountedPrice": 0,
+      "stockQuantity": 3,
+      "stockStatus": "In Stock",
+      "imgUrl": "https://s3.amazonaws.com/cdn.tulips.com/images/large/Beautiful-Light-Pink-Tulips.jpg",
+      "category": "tulips",
+      "size": "Big Bouquet"
+    }
+  ],
+  "floralCategory": [
+    {
+      "name": "All Products",
+      "imgUrl": "https://fullkit.moxcreative.com/florazo/wp-content/uploads/sites/5/2022/04/flowers-e1650125777286.jpg",
+      "link": "/all-products",
+      "id": "9371"
+    },
+    {
+      "name": "Tulips",
+      "imgUrl": "https://fullkit.moxcreative.com/florazo/wp-content/uploads/sites/5/2022/04/1.jpg",
+      "link": "/tulips",
+      "id": "84f5"
+    },
+    {
+      "name": "Rose",
+      "imgUrl": "https://images.myglobalflowers.com/255073f1-a4b9-4175-5c4c-64749b7a7300/large",
+      "link": "/roses",
+      "id": "61d4"
+    },
+    {
+      "name": "Bouquet",
+      "imgUrl": "https://fullkit.moxcreative.com/florazo/wp-content/uploads/sites/5/2022/04/11.jpg",
+      "link": "/flowers",
+      "id": "91ed"
+    },
+    {
+      "name": "Plants",
+      "imgUrl": "https://fullkit.moxcreative.com/florazo/wp-content/uploads/sites/5/2022/04/4.jpg",
+      "link": "/plants",
+      "id": "2075"
+    },
+    {
+      "name": "Gifts",
+      "imgUrl": "https://images.myglobalflowers.com/1dd9166f-2e38-49f2-51d8-59604477d600/large",
+      "link": "/gifts",
+      "id": "2d32"
+    }
+  ],
+  "floralArticles": [
+    {
+      "title": "Flowers For The Pisces In Your Life",
+      "author_name": "Flora Bloom",
+      "date": "2025-06-16",
+      "link": "/blog-pisces",
+      "author_img_url": "https://example.com/images/author_flora.jpg",
+      "mainImgUrl": "https://fullkit.moxcreative.com/florazo/wp-content/uploads/sites/5/2022/04/flowers-e1650125777286.jpg",
+      "sections": [
+        {
+          "heading": "Understanding the Pisces Personality",
+          "content": "Do you have a gentle, empathetic, and dreamy Pisces in your life? Whether it's for a birthday (February 19th to March 20th), a special occasion, or just because, choosing the right flowers for this water sign can be a delightful way to show you care. Pisces, symbolized by two fish swimming in opposite directions, are known for their compassionate nature, artistic sensibilities, and a deep connection to the ethereal. So, what blooms best capture their unique spirit?\n\nTo pick the perfect floral gift, it helps to understand a little about the Pisces archetype. They are often:\n\n* **Empathetic and Compassionate:** Pisces feel deeply and are incredibly sensitive to the emotions of others.\n* **Artistic and Creative:** Many Pisces have a natural inclination towards art, music, or other creative pursuits.\n* **Dreamy and Intuitive:** They often possess a rich inner world and a strong intuition.\n* **Spiritual and Otherworldly:** Pisces are connected to the mystical, the unseen, and often have a spiritual side.\n* **Gentle and Nurturing:** They are often kind, supportive, and loving friends and partners."
+        },
+        {
+          "heading": "The Best Flowers for a Pisces",
+          "content": "When selecting flowers for a Pisces, think about blooms that evoke a sense of calm, beauty, and a touch of the fantastical. Here are some top choices:\n\n### 1. Lilies\nWith their elegant appearance and often intoxicating fragrance, **lilies** are a superb choice for Pisces. White lilies symbolize purity and renewal, resonating with Pisces' spiritual side. Their graceful form can also appeal to the sign's artistic appreciation.\n\n### 2. Water Lilies (Nymphaea)\nIt's almost too perfect, isn't it? **Water lilies** are the quintessential Pisces flower. They embody the water element that governs Pisces, representing purity, peace, and spiritual enlightenment. If you can find a way to gift a potted water lily for a pond or water feature, it would be an incredibly thoughtful and symbolic gesture. Even imagery of water lilies or an arrangement inspired by their serene beauty would be fitting.\n\n### 3. Orchids\nExotic and captivating, **orchids** speak to the mystical and unique nature of Pisces. They symbolize love, beauty, and luxury, and their delicate yet intricate forms can fascinate the artistic eye of a Pisces. Their diverse colors also allow for personal expression.\n\n### 4. Irises\nNamed after the Greek goddess of the rainbow and messenger of the gods, **irises** are a wonderful choice. They symbolize hope, wisdom, and valor, aligning with Pisces' intuitive depth. The unique shape of the iris, with its downward-sweeping petals, can also evoke the flow and mystery of water.\n\n### 5. Baby's Breath (Gypsophila)\nWhile often used as a filler, **baby's breath** on its own or in a cloud-like arrangement can be incredibly enchanting and ethereal, perfectly capturing the dreamy essence of Pisces. Its delicate, airy quality feels gentle and innocent, much like the Pisces spirit.\n\n### 6. Forget-Me-Nots\nThese tiny, delicate blue flowers symbolize true love and remembrance. **Forget-me-nots** resonate with the compassionate and sentimental nature of Pisces, making them a sweet and heartfelt gift that speaks volumes about enduring affection."
+        },
+        {
+          "heading": "Presentation Matters",
+          "content": "Beyond the bloom itself, consider the presentation. A Pisces might appreciate:\n\n* A **soft, flowing arrangement** rather than something rigid or overly structured.\n* **Muted or pastel colors** that evoke a sense of calm and serenity. Blues, purples, lavenders, and whites are often ideal.\n* A **simple, elegant vase** that doesn't detract from the beauty of the flowers.\n* A **handwritten note** expressing your appreciation for their unique qualities."
+        }
+      ],
+      "conclusion": "Choosing flowers for the Pisces in your life is an opportunity to celebrate their sensitive, artistic, and deeply intuitive spirit. By selecting blooms that reflect their gentle nature and love for all things beautiful, you're sure to bring a smile to their dreamy eyes.",
+      "id": "4c3f"
+    },
+    {
+      "title": "Surprise Your Loved Ones With A Random Act Of Kindness",
+      "author_name": "Petal Post",
+      "date": "2025-06-16",
+      "link": "/blog-surprise",
+      "author_img_url": "https://example.com/images/author_petal.jpg",
+      "mainImgUrl": "https://fullkit.moxcreative.com/florazo/wp-content/uploads/sites/5/2022/04/flower.jpg",
+      "sections": [
+        {
+          "heading": "The Power of Unexpected Joy",
+          "content": "Life moves fast, and sometimes we get caught up in the daily grind. But imagine the ripple effect of a small, unexpected gesture. A random act of kindness doesn't just brighten someone's day; it creates a memorable moment and spreads warmth. It's about giving without expectation, purely for the joy of bringing a smile to someone's face."
+        },
+        {
+          "heading": "Why Flowers are the Perfect Messenger",
+          "content": "Flowers have a unique ability to convey emotions and lift spirits without a single word. Their vibrant colors, delicate petals, and enchanting fragrances are universally appreciated. When you send flowers as a random act of kindness, you're not just sending a gift; you're sending a moment of beauty, a touch of nature, and a clear message of care."
+        },
+        {
+          "heading": "Ideas for Your Floral Act of Kindness",
+          "content": "Looking for inspiration? Here are a few ways to use flowers to surprise and delight:\n\n* **Brighten a Neighbor's Day:** Leave a small bouquet on a neighbor's doorstep with a simple 'Thinking of you' note.\n* **Thank a Service Professional:** Deliver flowers to your local fire station, police department, or hospital staff to show appreciation.\n* **Cheer Up a Colleague:** Place a single rose or a small potted plant on a co-worker's desk to make their workday a little brighter.\n* **Surprise a Friend (Just Because):** Send a bouquet to a friend you haven't seen in a while, reminding them you care.\n* **Anonymously Donate:** Leave flowers at a community center or a nursing home to be distributed to residents."
+        },
+        {
+          "heading": "It's the Thought That Counts (and Blooms!)",
+          "content": "Remember, a random act of kindness doesn't need to be grand or expensive. It's the thoughtfulness and the element of surprise that make it truly special. So, next time you're looking for a way to spread a little joy, consider the simple, beautiful power of flowers."
+        }
+      ],
+      "conclusion": "Ready to spread some unexpected cheer? Browse our collection and find the perfect blooms to brighten someone's day with a random act of kindness.",
+      "id": "f28f"
+    },
+    {
+      "title": "Change The Mood In Your Home With Different Types Of Flowers",
+      "author_name": "Garden Guru",
+      "date": "2025-06-16",
+      "link": "/blog-change",
+      "author_img_url": "https://example.com/images/author_guru.jpg",
+      "mainImgUrl": "https://fullkit.moxcreative.com/florazo/wp-content/uploads/sites/5/2022/04/flower-flower.jpg",
+      "sections": [
+        {
+          "heading": "The Undeniable Influence of Flowers",
+          "content": "Our homes are our sanctuaries, and every element within them contributes to the overall atmosphere. While furniture and decor play a big role, nothing quite transforms a space or shifts a mood as effortlessly as fresh flowers. Their natural beauty, vibrant colors, and subtle fragrances have a profound impact on our well-being and the ambiance of a room."
+        },
+        {
+          "heading": "Setting the Scene: Flowers for Every Mood",
+          "content": "Different flowers, colors, and arrangements can evoke distinct feelings and create specific moods:\n\n### For Calm and Serenity: Whites and Blues\nOpt for **white lilies**, **hydrangeas**, or **blue delphiniums**. These colors and soft textures bring a sense of peace, spaciousness, and tranquility. Perfect for bedrooms, bathrooms, or meditation spaces.\n\n### For Energy and Vibrancy: Reds and Oranges\nChoose **red roses**, **orange gerbera daisies**, or **sunflowers**. These bold hues are invigorating and uplifting, ideal for common areas like living rooms or kitchens where activity and conversation thrive.\n\n### For Romance and Passion: Deep Pinks and Reds\nNothing says romance like a bouquet of **deep red roses** or **fuchsia peonies**. Place them in areas where you want to foster intimacy and warmth, like a dining table or bedside stand.\n\n### For Joy and Optimism: Yellows and Bright Mixes\n**Yellow tulips**, **daffodils**, or mixed bouquets with pops of bright colors instantly radiate happiness and cheer. Great for entryways or family rooms to create a welcoming and positive first impression.\n\n### For Creativity and Inspiration: Purples and Exotic Blooms\n**Orchids**, **irises**, or **lavender** can stimulate creativity and add a touch of mystery and sophistication. Their unique forms and rich colors are perfect for home offices or creative studios."
+        },
+        {
+          "heading": "Placement and Arrangement Tips",
+          "content": "The way you arrange and place your flowers also matters:\n\n* **Vary Heights:** Use different vase heights to create visual interest.\n* **Consider Fragrance:** Place highly fragrant flowers in larger, well-ventilated areas, or choose subtly scented options for smaller spaces.\n* **Reflect Your Decor:** Match the style of your arrangement to your home's aesthetic, whether it's minimalist, rustic, or bohemian.\n* **Don't Forget Greenery:** Lush foliage adds texture and helps the colors pop."
+        }
+      ],
+      "conclusion": "Transforming your home's mood can be as simple as adding a fresh bouquet. Experiment with different types of flowers and colors to discover how blooms can truly enhance your living space and uplift your spirits.",
+      "id": "5211"
+    },
+    {
+      "title": "Gifts For Your Favorite Aries Starting March 20th",
+      "author_name": "Zodiac Bloom",
+      "date": "2025-06-16",
+      "link": "/blog-gifts",
+      "author_img_url": "https://example.com/images/author_zodiac.jpg",
+      "mainImgUrl": "https://example.com/images/aries_gifts_main.jpg",
+      "sections": [
+        {
+          "heading": "Celebrating the Fiery Ram: Aries Season Begins!",
+          "content": "From March 20th to April 19th, we celebrate the dynamic and pioneering spirit of Aries. The first sign of the zodiac, Aries is known for being energetic, courageous, passionate, and a natural-born leader. They love new beginnings, challenges, and anything that fuels their fiery zest for life. So, when it comes to gifting, you need something that matches their vibrant personality!"
+        },
+        {
+          "heading": "Flowers That Match Aries' Energy",
+          "content": "When choosing flowers for an Aries, think bold, vibrant, and impactful. They appreciate things that stand out and reflect their strength and passion. Here are some top floral choices:\n\n### 1. Red Tulips\n**Red tulips** are vibrant and symbolize perfect love and new beginnings – ideal for the trailblazing Aries. Their striking appearance matches the sign's direct and powerful nature.\n\n### 2. Gerbera Daisies\nThese cheerful and colorful flowers exude happiness and vitality. **Gerbera daisies** come in a wide range of bright colors (especially reds and oranges) that perfectly capture the energetic and optimistic spirit of Aries.\n\n### 3. Poppies\nWith their striking colors and dramatic presence, **poppies** symbolize imagination and success. Their bold look and sometimes wild beauty resonate with the adventurous and untamed side of Aries.\n\n### 4. Thistle\nWhile perhaps unconventional, the **thistle** represents resilience, protection, and determination – all core Aries traits. For an Aries who appreciates uniqueness, a thistle integrated into an edgy, modern arrangement can be a powerful statement.\n\n### 5. Bright Mixed Bouquets\nAn Aries will love a bouquet that's bursting with color and life. Think arrangements featuring a mix of **bright reds, oranges, and yellows**, perhaps with some strong structural greenery. They appreciate visual impact!"
+        },
+        {
+          "heading": "Beyond the Bouquet: Presentation and Experience",
+          "content": "Aries appreciates directness and quality. Consider:\n\n* **Bold Vases:** Choose a vase with strong lines or a vibrant color that makes a statement.\n* **Dramatic Arrangements:** Avoid overly fussy or delicate arrangements. Aries prefers something impactful.\n* **A Personal Note:** A straightforward, heartfelt message acknowledging their strength and passion will be well-received.\n* **Experiential Gifts:** Combine flowers with an experience they'd love, like tickets to an adventurous outing or a new fitness class."
+        }
+      ],
+      "conclusion": "Gifting an Aries means celebrating their pioneering spirit and fiery personality. Choose flowers that are as bold and unforgettable as they are, and you're sure to ignite a smile!",
+      "id": "c81d"
+    },
+    {
+      "title": "5 Ways To Warm Up Your Home For The Spring",
+      "author_name": "Home Harmony",
+      "date": "2025-06-16",
+      "link": "/blog-ways",
+      "author_img_url": "https://example.com/images/author_harmony.jpg",
+      "mainImgUrl": "https://example.com/images/spring_warmup_home.jpg",
+      "sections": [
+        {
+          "heading": "Embracing Spring's Gentle Embrace",
+          "content": "As winter's chill recedes and the days grow longer, there's a natural urge to refresh and revitalize our living spaces. Spring is a time of renewal, and bringing that light, airy, and warm feeling into your home can significantly uplift your mood and create an inviting atmosphere. Here are five simple yet effective ways to 'warm up' your home for the beautiful spring season."
+        },
+        {
+          "heading": "1. Introduce Fresh Flowers and Greenery",
+          "content": "Nothing says 'spring' quite like fresh blooms. Bring in bouquets of **tulips, daffodils, hyacinths, or peonies**. Their vibrant colors and sweet fragrances instantly infuse a room with life and energy. Don't forget potted plants like **ferns or small herbs**; they add natural texture and a touch of the outdoors, improving air quality and visual appeal."
+        },
+        {
+          "heading": "2. Swap Out Heavy Fabrics for Lighter Ones",
+          "content": "Pack away those heavy wool throws and velvet cushions. Replace them with textiles in lighter fabrics like **cotton, linen, or lightweight knits**. Opt for brighter colors, pastels, or floral patterns for throw pillows, blankets, and even curtains. This simple change will make your rooms feel less dense and more open and airy."
+        },
+        {
+          "heading": "3. Embrace Natural Light (and Add Mirrors!)",
+          "content": "Open up those blinds and curtains and let the sunshine pour in! Natural light instantly brightens and warms a space. To amplify this effect, strategically place **mirrors** opposite windows. Mirrors reflect light, making rooms appear larger, brighter, and more inviting. Clean your windows for maximum sparkle!"
+        },
+        {
+          "heading": "4. Infuse Spring Scents",
+          "content": "Our sense of smell is powerfully connected to mood. Ditch heavy, musky winter scents for lighter, fresher, and floral aromas. Use **diffusers with essential oils** like lavender, lemon, mint, or floral blends. **Spring-scented candles** or even simply opening windows to let in the fresh air can make a huge difference in the feeling of your home."
+        },
+        {
+          "heading": "5. Declutter and Organize",
+          "content": "Spring cleaning isn't just about tidiness; it's about making space for new energy. A decluttered home feels lighter, more open, and less oppressive. Go through each room, remove unnecessary items, and organize what remains. This creates a sense of calm and allows the 'warmth' of spring to truly permeate your space."
+        }
+      ],
+      "conclusion": "By making these small adjustments, you can transform your home into a welcoming haven that perfectly embodies the refreshing and hopeful spirit of spring. Enjoy the lighter days!",
+      "id": "7d44"
+    },
+    {
+      "title": "How To Celebrate Share A Smile Day On March 1st",
+      "author_name": "Joy Spreader",
+      "date": "2025-06-16",
+      "link": "/blog-celebrate",
+      "author_img_url": "https://example.com/images/author_joy.jpg",
+      "mainImgUrl": "https://example.com/images/smile_day_flowers.jpg",
+      "sections": [
+        {
+          "heading": "Unlocking the Power of a Smile",
+          "content": "March 1st marks 'Share A Smile Day,' a beautiful reminder of the simple yet profound impact a smile can have. A smile is contagious; it can instantly uplift moods, build connections, and create a ripple effect of positivity. In our busy lives, taking a moment to genuinely smile at someone can be a powerful act of kindness. So, how can we make the most of this special day?"
+        },
+        {
+          "heading": "Simple Ways to Share Your Smile (and More!)",
+          "content": "Here are some delightful ideas to celebrate Share A Smile Day and spread joy:\n\n### 1. The Classic Smile Exchange\nIt sounds obvious, but actively choose to smile at everyone you encounter – strangers, colleagues, family, and friends. Make eye contact and let your smile be genuine. You'll be amazed at how many smiles you get back!\n\n### 2. Leave a 'Smiling' Note\nWrite cheerful, anonymous notes with encouraging messages like 'You are amazing!' or 'Hope this makes you smile!' and leave them in public places like coffee shops, libraries, or on park benches. You could even attach a small, cheerful flower like a **daisy** to it!\n\n### 3. Perform a Small Act of Kindness\nCombine your smile with a thoughtful gesture. Pay for someone's coffee, hold a door open, give a genuine compliment, or offer help to someone who looks like they need it. A kind act, accompanied by a warm smile, is incredibly impactful.\n\n### 4. Send a Floral Pick-Me-Up\nFlowers are natural mood boosters! Send a surprise bouquet to a friend, family member, or colleague who might be going through a tough time, or just to let them know you're thinking of them. Choose bright, happy flowers like **sunflowers, gerbera daisies, or mixed spring bouquets** that are sure to evoke a smile.\n\n### 5. Create a 'Smile' Photo Challenge\nEncourage friends or family to take photos of themselves smiling, or capturing moments that make them smile, and share them on social media with a specific hashtag. This creates a fun, public display of joy."
+        },
+        {
+          "heading": "Beyond Just One Day",
+          "content": "While March 1st is a special day to focus on sharing smiles, remember that the power of a smile isn't limited to just one day. Make it a daily habit to genuinely engage with others and offer that simple, beautiful gesture. You have the power to brighten someone's entire day with just a small curve of your lips."
+        }
+      ],
+      "conclusion": "This Share A Smile Day, let your happiness be contagious! Whether it's through a warm glance, a kind gesture, or a beautiful bouquet, spread joy and make the world a little brighter, one smile at a time.",
+      "id": "8576"
+    }
+  ],
+  "products": [
+    {
+      "id": "9dc3",
+      "name": "Iphone",
+      "description": "this is iphone",
+      "imgUrl": "data:image/webp;base64,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"
+    },
+    {
+      "id": "cdca",
+      "name": "Ipad",
+      "description": "this is ipad",
+      "imgUrl": "data:image/webp;base64,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"
+    },
+    {
+      "id": "f2b4",
+      "name": "macbook",
+      "description": "this is mac book",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ55uFVjrUuU65U6j4QCLnDXrrgxH2NxmLAzEKw3La6KyDSgaOHLUkU_1Xj259cMRpBf5uP-giH6bONKsEqB7pHs7gbY8GuHSqghOiy1FzIqYw0vtn2K-x39ggu5o8nuC46B7tDR9k&usqp=CAc"
+    }
+  ],
+  "floralUsers": [
+    {
+      "id": "02d2",
+      "name": "mona",
+      "email": "mona@123",
+      "password": "12345678"
+    },
+    {
+      "id": "1e5e",
+      "name": "mona",
+      "email": "mona@123",
+      "password": "123456789"
+    },
+    {
+      "id": "bb4d",
+      "name": "mody",
+      "email": "mody@123",
+      "password": "987456321"
+    },
+    {
+      "id": "34f2",
+      "name": "mody",
+      "email": "mody@123",
+      "password": "987456321"
+    }
+  ],
+  "floralCart": [
+    {
+      "id": "cb8b"
+    },
+    {
+      "id": "7fe5"
+    },
+    {
+      "id": "972c"
+    }
+  ],
+  "floralTestimonials": [
+    {
+      "id": "1a2b",
+      "name": "Alice",
+      "text": "I absolutely love the floral arrangements from this shop! They always brighten up my day and make my home feel so welcoming.",
+      "rating": 5,
+      "imgUrl": "https://fullkit.moxcreative.com/florazo/wp-content/uploads/sites/5/2022/04/img__0006_Layer-2.jpg"
+    },
+    {
+      "id": "3c4d",
+      "name": "Bob",
+      "text": "The flowers are always fresh and beautifully arranged. I highly recommend their services for any occasion!",
+      "rating": 4,
+      "imgUrl": "https://fullkit.moxcreative.com/florazo/wp-content/uploads/sites/5/2022/04/img__0001_Layer-7.jpg"
+    },
+    {
+      "id": "5e6f",
+      "name": "Charlie",
+      "text": "Great selection of flowers and excellent customer service. My go-to place for floral gifts!",
+      "rating": 5,
+      "imgUrl": "https://fullkit.moxcreative.com/florazo/wp-content/uploads/sites/5/2022/04/img__0003_Layer-5.jpg"
+    },
+    {
+      "id": "7g8h",
+      "name": "Diana",
+      "text": "I ordered a bouquet for my anniversary and it was stunning! The delivery was prompt and the flowers were in perfect condition.",
+      "rating": 5,
+      "imgUrl": "https://fullkit.moxcreative.com/florazo/wp-content/uploads/sites/5/2022/04/img__0004_Layer-4.jpg"
+    },
+    {
+      "id": "9i0j",
+      "name": "Ethan",
+      "text": "The floral arrangements are always unique and creative. I love how they incorporate seasonal flowers into their designs.",
+      "rating": 4,
+      "imgUrl": "https://fullkit.moxcreative.com/florazo/wp-content/uploads/sites/5/2022/04/img__0002_Layer-6.jpg"
+    },
+    {
+      "id": "1k2l",
+      "name": "Fiona",
+      "text": "I had a wonderful experience ordering flowers for my wedding. The team was very helpful and the arrangements were breathtaking!",
+      "rating": 5,
+      "imgUrl": "https://fullkit.moxcreative.com/florazo/wp-content/uploads/sites/5/2022/04/img__0000_Layer-8.jpg"
+    }
+  ],
+  "floralFavourites": []
+}

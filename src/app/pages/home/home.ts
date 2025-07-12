@@ -5,11 +5,13 @@ import {
   HostListener,
   OnDestroy,
   OnInit,
+  ViewChild,
 } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { WhoAreWe } from '../../components/who-are-we/who-are-we';
 import { Unique } from '../../components/unique/unique';
 import { ProductService } from '../../services/product-service';
+import { TestimonialService } from '../../services/testimonial-service';
 import { ICategory, IProduct } from '../../models/product-model';
 import { Card } from '../../components/card/card';
 import { Discount } from '../../components/discount/discount';
@@ -26,12 +28,20 @@ export class Home implements AfterViewInit, OnDestroy, OnInit {
   constructor(
     private productService: ProductService,
     private el: ElementRef,
-    private categoryUrl: Categories
+    private categoryUrl: Categories,
+    private testimonialService: TestimonialService
   ) {}
 
   ngOnInit(): void {
     this.getLatestProducts();
-    this.getCategoryData()
+    this.getCategoryData();
+
+    if (this.swiperRef && this.swiperRef.nativeElement) {
+      Object.assign(this.swiperRef.nativeElement, this.swiperConfig);
+      this.swiperRef.nativeElement.initialize();
+    }
+
+    this.getTestimonials();
   }
 
   //background image rotation , hero section
@@ -109,5 +119,53 @@ export class Home implements AfterViewInit, OnDestroy, OnInit {
     } else {
       this.isScrolled = false;
     }
+  }
+
+  // start testimonials
+
+  @ViewChild('swiperRef', { static: true })
+  swiperRef!: ElementRef<SwiperContainer>;
+
+  testimonials!: ITestimonial[];
+
+  swiperConfig: SwiperOptions = {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay: {
+      delay: 5000, // 5 seconds
+      disableOnInteraction: false,
+    },
+    // Add breakpoints for responsiveness
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 50,
+      },
+    },
+  };
+
+
+
+  getTestimonials() {
+    this.testimonialService.getAllTestimonials().subscribe((res: any) => {
+      this.testimonials = res;
+      console.log('testimonials ::', res);
+    });
+  }
+  // Optional: Listen to Swiper events
+  onSlideChange(swiper: any) {
+    console.log('slide changed', swiper);
   }
 }

@@ -232,3 +232,95 @@ p {
 .after-animate-in {
   transform: translateX(0%);
 }
+
+/* start testimonials  */
+.testimonials-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  background-image: url(../../../assets/testimonials.jpg);
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+  }
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  cursor: grab;
+}
+
+.quote {
+  font-size: 1.1em;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 20px;
+  /* text-align: center; */
+}
+
+.author-info {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10% !important;
+  margin: auto;
+}
+
+.author-info .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.author-info .img img {
+  width: 100%;
+  height: auto;
+}
+.author-name {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.author-title {
+  font-size: 0.9em;
+  color: #777;
+}
+
+/* Swiper custom navigation styles (optional) */
+swiper-container {
+  padding: 0 50px; /* Add padding to make space for arrows */
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #007aff;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #007aff;
+}

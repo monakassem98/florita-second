@@ -115,7 +115,10 @@
 <!-- start after pop categories section  -->
 <section class="after-pop">
   <div class="container">
-    <div class="left after-left-animation" [class.after-animate-in]="isScrolled">
+    <div
+      class="left after-left-animation"
+      [class.after-animate-in]="isScrolled"
+    >
       <div class="overrlay"></div>
       <div class="img">
         <img src="../../../assets/after-pop-1.png" alt="" />
@@ -130,7 +133,10 @@
       </div>
     </div>
 
-    <div class="right after-right-animation" [class.after-animate-in]="isScrolled">
+    <div
+      class="right after-right-animation"
+      [class.after-animate-in]="isScrolled"
+    >
       <div class="overrlay"></div>
       <div class="img">
         <img src="../../../assets/after-pop-2.png" alt="" />
@@ -149,4 +155,43 @@
       </div>
     </div>
   </div>
+</section>
+
+<!-- start testimonials  -->
+<section class="testimonials-section">
+  <div class="overrlay"></div>
+  <h2 class="sub-heading">Testimonial</h2>
+  <h2 class="main-heading">What Our Clients Say</h2>
+
+  <swiper-container
+    #swiperRef
+    [slidesPerView]="swiperConfig.slidesPerView"
+    [spaceBetween]="swiperConfig.spaceBetween"
+    [loop]="swiperConfig.loop"
+    [pagination]="swiperConfig.pagination"
+    [navigation]="swiperConfig.navigation"
+    [autoplay]="swiperConfig.autoplay"
+    [breakpoints]="swiperConfig.breakpoints"
+    (slideChange)="onSlideChange($event)"
+    init="false"
+  >
+    <swiper-slide *ngFor="let testimonial of testimonials">
+      <div class="testimonial-card">
+        <p class="quote">"{{ testimonial.text }}"</p>
+        <div class="author-info">
+          <div class="img">
+            <img src="{{ testimonial.imgUrl }}" alt="{{ testimonial.name }}" />
+          </div>
+          <div class="txt">
+            <p class="author-name">{{ testimonial.name }}</p>
+            <p class="author-title">{{ testimonial.title }}</p>
+          </div>
+        </div>
+      </div>
+    </swiper-slide>
+
+    <div class="swiper-button-prev" slot="container-start"></div>
+    <div class="swiper-button-next" slot="container-end"></div>
+  </swiper-container>
+  <div class="swiper-pagination" slot="pagination"></div>
 </section>
