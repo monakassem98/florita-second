@@ -1,0 +1,8 @@
+<p>cart works!</p>
+<section class="favourites">
+  <div class="container cards-cont">
+    @for ( p of product; track $index) {
+    <app-card [product]="p" />
+    }
+  </div>
+</section>

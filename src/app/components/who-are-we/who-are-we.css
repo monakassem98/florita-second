@@ -1,0 +1,46 @@
+.about {
+  height: 600px !important;
+  background-image: url(../../../assets/about-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: var(--main-padding);
+  padding-bottom: var(--sub-margin);
+  overflow: hidden;
+}
+
+.about .left {
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+  margin-left: var(--sub-margin);
+}
+
+.about .left h1 {
+  margin-top: var(--sub-margin);
+}
+
+.about .right {
+  width: 50%;
+}
+
+.about .right img {
+  width: 100%;
+  box-shadow: var(--shadow);
+  border: 14px solid white;
+}
+
+/* start animations */
+.left-animation {
+  transform: translateX(-130%);
+  transition: 1.7s ease-in-out; /* Add transition here */
+}
+
+.right-animation {
+  transform: translateX(130%);
+  transition: 1.7s ease-in-out; /* Add transition here */
+}
+
+/* Class to apply when animations are active */
+.animate-in {
+  transform: translateX(0%);
+}

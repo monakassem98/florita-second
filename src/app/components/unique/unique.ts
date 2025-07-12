@@ -1,0 +1,32 @@
+import { Component, ElementRef, HostListener } from '@angular/core';
+
+@Component({
+  selector: 'app-unique',
+  imports: [],
+  templateUrl: './unique.html',
+  styleUrl: './unique.css',
+})
+export class Unique {
+  isScrolled = false;
+
+  constructor(private el: ElementRef) {}
+
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    this.checkScroll();
+  }
+
+  checkScroll() {
+    const componentPosition = this.el.nativeElement.getBoundingClientRect().top;
+    // const scrollPosition = window.scrollY;
+    const windowHeight = window.innerHeight;
+
+    const triggerPoint = windowHeight * 0.75;
+
+    if (componentPosition < triggerPoint) {
+      this.isScrolled = true;
+    } else {
+      this.isScrolled = false;
+    }
+  }
+}

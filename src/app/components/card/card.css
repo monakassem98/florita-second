@@ -1,0 +1,84 @@
+.cards {
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  padding-bottom: var(--sub-margin);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  cursor: pointer;
+  position: relative;
+  margin-top: 30px;
+}
+
+.card-components {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 450px; */
+}
+
+.cards:hover {
+  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cards .img {
+  overflow: hidden;
+  width: 300px;
+  border-radius: var(--border-radius);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.cards .img img {
+  width: 100%;
+}
+
+.cards h2 {
+  color: var(--dark-green);
+  font-size: calc(var(--icon-heading-size) - 5px);
+  width: 60%;
+  text-align: center;
+  margin-top: var(--sub-margin);
+}
+
+.cards .price {
+  color: var(--light-green);
+  margin-top: var(--sub-margin);
+  font-weight: 700;
+  font-size: var(--link-size);
+}
+
+.cards .favorite {
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.342);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  right: 10px;
+  top: 10px;
+}
+
+.cards .favorite .i {
+  color: var(--dark-green);
+  font-size: var(--link-size);
+}
+
+.cards .solid {
+  display: none;
+}
+
+.cards .favorite:hover > .solid {
+  display: block;
+}
+
+.cards .hollow:hover {
+  display: none;
+}
+
+.cart {
+  margin-top: 20px;
+}

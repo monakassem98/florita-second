@@ -1,1 +1,145 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Global CSS Variables */
+:root {
+  /* colors  */
+  --dark-green: #204e36;
+  --light-green: #22a366;
+  --main-background: #f1f1f0;
+  --txt-color: rgb(109, 109, 109);
+  --light-yellow: #fdefbe;
+  --light-gray: #f6f5f6;
+
+  /* font size  */
+  --paragraph-size: 16px;
+  --link-size: 18px;
+  --sub-heading-size: 30px;
+  --icon-heading-size: 25px;
+  --main-heading-size: 50px;
+
+  /* font style  */
+  --poppins: "Poppins", sans-serif;
+  --flower: "Fleur De Leah", cursive;
+  --roboto: "Roboto", sans-serif;
+  --merinda: "Merienda", cursive;
+  --josef: "Josefin Sans", sans-serif;
+
+  /* padding  */
+  --main-padding: 100px;
+  --sub-padding: 10px 20px;
+
+  /* margin  */
+  --main-margin: 100px;
+  --sub-margin: 30px;
+
+  /* shadow  */
+  --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  /* border  */
+  --border-radius: 25px;
+}
+
+.green-btn {
+  background-color: var(--light-green);
+  padding: var(--sub-padding);
+  color: white;
+  border-radius: var(--border-radius);
+  width: fit-content;
+  margin-top: var(--sub-margin);
+  cursor: pointer;
+  z-index: 5000;
+
+  &:hover {
+    background-color: var(--dark-green);
+    transition: 0.3s ease;
+  }
+}
+
+.overrlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(158, 158, 158, 0.233);
+  left: 0;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+span,
+a {
+  font-family: var(--poppins);
+  font-size: var(--paragraph-size);
+  color: var(--txt-color);
+  margin: 0;
+}
+
+p {
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--josef);
+  margin: 0;
+}
+
+.sub-heading {
+  font-family: var(--flower);
+  font-size: var(--sub-heading-size);
+  color: var(--dark-green);
+  font-weight: 300;
+}
+
+.main-heading {
+  font-family: var(--josef);
+  font-size: var(--main-heading-size);
+  color: var(--dark-green);
+  font-weight: 500;
+}
+
+.container {
+  width: 99% !important;
+}
+
+.cards-cont {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: var(--sub-margin);
+  gap: 20px;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.logo img {
+  width: 40px;
+}
+.logo span {
+  font-family: var(--merinda);
+  font-size: 30px;
+  color: var(--dark-green);
+}

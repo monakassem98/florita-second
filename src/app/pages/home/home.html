@@ -1,0 +1,152 @@
+<!-- start hero section  -->
+<section class="hero">
+  <div class="overrlay"></div>
+  <div class="container">
+    <div class="txt">
+      <h1 class="main-heading">Flowers that attract happiness</h1>
+      <p>
+        Cursus fermentum sapien senectus non suspendisse consectetur cubilia et
+        si interdum mus
+      </p>
+      <a class="green-btn" routerLink="/all-products">Discover more</a>
+    </div>
+  </div>
+</section>
+
+<!-- start icons section -->
+<section class="icons">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="icon-cont">
+      <div class="icon">
+        <i class="fa-regular fa-snowflake i"></i>
+      </div>
+
+      <div class="txt">
+        <h3>Freshness</h3>
+        <p>Fresh from Our Fields</p>
+      </div>
+    </div>
+
+    <div class="icon-cont">
+      <div class="icon">
+        <i class="fa-solid fa-box i"></i>
+      </div>
+
+      <div class="txt">
+        <h3>Safety Package</h3>
+        <p>Quick Flower Delivery</p>
+      </div>
+    </div>
+
+    <div class="icon-cont">
+      <div class="icon">
+        <i class="fa-solid fa-truck-fast i"></i>
+      </div>
+
+      <div class="txt">
+        <h3>Free Delivery</h3>
+        <p>On all orders above $50</p>
+      </div>
+    </div>
+
+    <div class="icon-cont">
+      <div class="icon">
+        <i class="fa-solid fa-credit-card i"></i>
+      </div>
+
+      <div class="txt">
+        <h3>Support 24/7</h3>
+        <p>100% Secure Checkout</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- start who are we section -->
+<app-who-are-we></app-who-are-we>
+
+<!-- start unique section -->
+<app-unique></app-unique>
+
+<!-- start latest products section -->
+<section class="container latest">
+  <h1 class="main-heading">Latest product</h1>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+    luctus nec ullamcorper mattis, pulvinar dapibus leo.
+  </p>
+  <div class="cards-cont">
+    @for ( p of products; track $index) { @if($index < 8){
+    <app-card [product]="p" />
+    } }
+  </div>
+</section>
+
+<!-- start discount section  -->
+<app-discount />
+
+<!-- start why choose us section  -->
+<app-choose-us />
+
+<!-- start popular categories  -->
+<section class="popular">
+  <div class="overrlay"></div>
+  <div class="cont container">
+    <h1 class="main-heading animate" [class.animate-in]="isScrolled">
+      Popular Categories
+    </h1>
+    <div class="pop-wrapper">
+      @for (cat of category; track $index) {
+      <a [routerLink]="cat.link" class="pop-link">
+        <div class="pop">
+          <div class="img">
+            <img [src]="cat.imgUrl" alt="" />
+          </div>
+          <div class="txt">
+            <h3>{{ cat.name }}</h3>
+          </div>
+        </div>
+      </a>
+      }
+    </div>
+  </div>
+</section>
+
+<!-- start after pop categories section  -->
+<section class="after-pop">
+  <div class="container">
+    <div class="left after-left-animation" [class.after-animate-in]="isScrolled">
+      <div class="overrlay"></div>
+      <div class="img">
+        <img src="../../../assets/after-pop-1.png" alt="" />
+      </div>
+      <div class="txt">
+        <h1 class="main-heading">Same Day Flower <br />Delivery</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur <br />
+          adipiscing elit dolor
+        </p>
+        <a class="green-btn">Learn More</a>
+      </div>
+    </div>
+
+    <div class="right after-right-animation" [class.after-animate-in]="isScrolled">
+      <div class="overrlay"></div>
+      <div class="img">
+        <img src="../../../assets/after-pop-2.png" alt="" />
+      </div>
+      <div class="txt">
+        <h1 class="main-heading">
+          Congratulate a special <br />
+          someone with a <br />
+          bouquet
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur <br />
+          adipiscing elit dolor
+        </p>
+        <a class="green-btn">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>

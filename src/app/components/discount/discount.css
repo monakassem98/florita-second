@@ -1,0 +1,56 @@
+.discount {
+  margin-top: var(--main-margin);
+  background-image: url(../../../assets/discount.jpg);
+  padding: var(--sub-margin);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  background-color: rgba(31, 31, 31, 0.555);
+}
+
+.cont {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  width: 55%;
+}
+
+.cont h1 {
+  color: white;
+}
+
+.cont p {
+  color: white;
+  margin-top: var(--sub-margin);
+  margin-bottom: var(--sub-margin);
+}
+
+.cont a {
+  color: white;
+  margin: auto;
+  margin-top: 70px;
+  display: block;
+}
+
+.cont span {
+  color: white;
+  margin-left: 10px;
+}
+
+/* start animations */
+.cont {
+  transform: translate(-50%, 150%);
+  transition: 1s;
+}
+
+.animate-in {
+  transform: translate(-50%, -50%);
+}

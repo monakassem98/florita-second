@@ -1,0 +1,31 @@
+<div class="cards">
+  <div class="card-components">
+    <!-- <div (click)="toggleFavourite()">
+      @if(isFavourite){
+      <i class="fa-solid fa-heart i"></i>
+      } @else if(!isFavourite){
+      <i class="fa-regular fa-heart i"></i>
+      }
+    </div> -->
+
+    <a (click)="toggleFavourite()" class="favorite">
+      <i
+        [ngClass]="
+          isFavourite ? 'fa-solid fa-heart i' : 'fa-regular fa-heart i'
+        "
+      ></i>
+    </a>
+
+    <div class="img"><img [src]="product.imgUrl" alt="" /></div>
+    <h2>{{ product.name }}</h2>
+    <span class="price">{{ product.price }} L.E</span>
+
+    <div (click)="toggleCart()" class="cart">
+      @if(!isAddedToCart){
+      <a class="green-btn">Add to cart</a>
+      } @else{
+      <a class="green-btn">Remove from cart</a>
+      }
+    </div>
+  </div>
+</div>
