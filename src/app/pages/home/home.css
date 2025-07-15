@@ -1,5 +1,5 @@
 .hero {
-  height: calc(100vh - 70px);
+  height: calc(100vh - 0px);
   background-color: rgba(218, 218, 220, 0.662);
   background-repeat: no-repeat;
   background-size: contain;
@@ -16,6 +16,9 @@
   position: relative;
 }
 
+.hero .txt p {
+  color: var(--txt-color) !important;
+}
 .hero .txt h1 {
   font-size: calc(var(--main-heading-size) + 30px);
 }
@@ -64,6 +67,7 @@
   margin: auto;
   margin-top: var(--sub-margin);
   text-align: center;
+  color: var(--txt-color);
 }
 
 .cards-cont {
@@ -75,132 +79,8 @@
   gap: 20px;
 }
 
-/* start popular section  */
-.popular {
-  margin-top: 300px;
-  background-image: url(../../../assets/popular.jpg);
-  height: 500px;
-  background-size: cover;
-  background-position-y: 40%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  position: relative;
-}
 
-.popular h1 {
-  margin-bottom: 30px;
-}
 
-.pop-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-
-.pop {
-  position: relative;
-}
-
-.pop .img {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  background-color: rgb(107, 107, 107);
-  overflow: hidden;
-}
-
-.pop .img img {
-  width: 100%;
-  height: 100%;
-  opacity: 0.8;
-}
-
-.pop .img:hover > img {
-  transform: perspective(500px) translateZ(30px);
-  transition: 0.3s ease;
-}
-
-.pop .txt {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-}
-
-.pop .txt h3 {
-  color: white;
-}
-
-.animate {
-  transform: translateY(150%);
-  transition: 0.9s;
-}
-
-.animate-in {
-  transform: translateY(-30%);
-}
-
-/* start after pop categories section  */
-.after-pop {
-  padding: var(--main-padding) 0;
-}
-
-.after-pop .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow: hidden;
-}
-
-.after-pop a {
-  display: inline-block;
-}
-
-.after-pop .left,
-.right {
-  width: 48%;
-  height: 400px;
-  padding: 50px;
-  position: relative;
-  overflow: hidden;
-  background-color: #dcdbe0;
-  border-radius: 10px;
-}
-
-.after-pop .right {
-  background-color: #dfe2eb !important;
-}
-
-.after-pop .left .img,
-.after-pop .right .img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.after-pop .left img,
-.after-pop .right img {
-  width: 100%;
-}
-
-.after-pop .left:hover img,
-.after-pop .right:hover img {
-  transform: translateX(-10%);
-  transition: transform 0.5s ease-in-out;
-}
-
-.after-pop .left .txt,
-.after-pop .right .txt {
-  position: absolute;
-  z-index: 3;
-}
-
-.after-pop .left h1,
-.after-pop .right h1 {
-  color: white;
-}
 
 .overrlay {
   z-index: 2;
@@ -217,21 +97,7 @@ p {
   color: white;
 }
 
-/* start animations */
-.after-left-animation {
-  transform: translateY(-130%);
-  transition: 1.7s ease-in-out; /* Add transition here */
-}
 
-.after-right-animation {
-  transform: translateY(130%);
-  transition: 1.7s ease-in-out; /* Add transition here */
-}
-
-/* Class to apply when animations are active */
-.after-animate-in {
-  transform: translateX(0%);
-}
 
 /* start testimonials  */
 .testimonials-section {

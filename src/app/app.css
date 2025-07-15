@@ -1,0 +1,16 @@
+.pi-arrow-up {
+  color: white !important;
+}
+
+.pi {
+  color: white !important;
+}
+
+span {
+  color: white !important;
+}
+.p-button-contrast {
+  background: var(--dark-green) !important;
+  border: none !important;
+  color: white !important;
+}

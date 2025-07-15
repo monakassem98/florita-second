@@ -1,0 +1,28 @@
+<section>
+  <div class="container">
+    <div class="product-cont">
+      <div class="left">
+        <img [src]="product.imgUrl" [alt]="product.name" />
+      </div>
+      <div class="right">
+        <div class="fav-cont">
+          <h1 class="name">{{ product.name }}</h1>
+          <app-add-to-favs [product]="product" style="cursor: pointer" />
+        </div>
+        <div class="stars">
+          <i class="fa-solid fa-star i"></i>
+          <i class="fa-solid fa-star i"></i>
+          <i class="fa-solid fa-star i"></i>
+          <i class="fa-solid fa-star i"></i>
+          <i class="fa-solid fa-star-half-stroke i"></i>
+        </div>
+        <h3 class="price">{{ product.price }} L.E</h3>
+        <h2>Product Description</h2>
+        <p>{{ product.description }}</p>
+        <h2>Product Composition</h2>
+        <p [innerHTML]="formattedComposition"></p>
+        <app-add-to-cart [product]="product" />
+      </div>
+    </div>
+  </div>
+</section>

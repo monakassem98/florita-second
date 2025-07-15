@@ -1,4 +1,8 @@
-<p>cart works!</p>
+<app-product-main
+  [nameAction]="'Cart'"
+  [titleAction]="'All your Cart products are here'"
+/>
+
 <section class="favourites">
   <div class="container cards-cont">
     @for ( p of product; track $index) {

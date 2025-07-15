@@ -1,0 +1,100 @@
+<section>
+  <div class="container">
+    @if (!showLogin) {
+    <div class="user-auth">
+      <form [formGroup]="signUpFormGroup" (ngSubmit)="setUserSignUp()">
+        <div class="form-cont">
+          <h1>User Registration</h1>
+
+          <label for="name">Enter User Name :</label>
+          <input type="name" matInput formControlName="name" required />
+          @if (signUpFormGroup.controls['name'].hasError('name') &&
+          !signUpFormGroup.controls['name'].hasError('required')) {
+          <mat-error>Please enter a valid name.</mat-error>
+          } @if (signUpFormGroup.controls['name'].hasError('minlength')) {
+          <mat-error>User name should be 3 or more characters </mat-error>
+          } @if (signUpFormGroup.controls['name'].hasError('maxlength')) {
+          <mat-error>User name should be less than 20 characters </mat-error>
+          } @if (signUpFormGroup.controls['name'].hasError('pattern')) {
+          <mat-error>invalid pattern </mat-error>
+          } @if (signUpFormGroup.controls['name'].hasError('required')){
+          <mat-error>User name is <strong>required</strong> </mat-error>
+          }
+
+          <label for="email">Enter User Email :</label>
+          <input type="email" matInput formControlName="email" required />
+          @if (signUpFormGroup.controls['email'].hasError('email') &&
+          !signUpFormGroup.controls['email'].hasError('required')) {
+          <mat-error>Please enter a valid email.</mat-error>
+          } @if (signUpFormGroup.controls['email'].hasError('minlength')) {
+          <mat-error>User email should be 3 or more characters </mat-error>
+          } @if (signUpFormGroup.controls['email'].hasError('maxlength')) {
+          <mat-error>User email should be less than 20 characters </mat-error>
+          } @if (signUpFormGroup.controls['email'].hasError('pattern')) {
+          <mat-error>invalid pattern </mat-error>
+          } @if (signUpFormGroup.controls['email'].hasError('required')){
+          <mat-error>User email is <strong>required</strong> </mat-error>
+          }
+
+          <label for="password">Enter User Password :</label>
+          <input type="password" formControlName="password" matInput required />
+          @if (signUpFormGroup.controls['password'].hasError('password') &&
+          !signUpFormGroup.controls['password'].hasError('required')) {
+          <mat-error>Please enter a valid password.</mat-error>
+          } @if (signUpFormGroup.controls['password'].hasError('minlength')) {
+          <mat-error>User password should be 8 or more characters </mat-error>
+          } @if (signUpFormGroup.controls['password'].hasError('maxlength')) {
+          <mat-error
+            >User password should be less than 25 characters
+          </mat-error>
+          } @if (signUpFormGroup.controls['password'].hasError('pattern')) {
+          <mat-error>invalid pattern </mat-error>
+          } @if (signUpFormGroup.controls['password'].hasError('required')){
+          <mat-error>User password is <strong>required</strong> </mat-error>
+          }
+
+          <button class="green-btn">Sign Up</button>
+          <div style="text-align: center">
+            <span>Already registered?</span>
+            <a
+              style="
+                color: var(--light-green);
+                margin-left: 10px;
+                cursor: pointer;
+              "
+              (click)="openLoginForm()"
+              >Sign In</a
+            >
+          </div>
+        </div>
+      </form>
+    </div>
+    } @if (showLogin) {
+    <div class="user-auth">
+      <form [formGroup]="loginFormGroup" (ngSubmit)="setUserLogin()">
+        <div class="form-cont">
+          <h1>Sign In</h1>
+          <label for="email">Enter User Email :</label>
+          <input formControlName="email" type="email" name="email" />
+          <label for="password">Enter User Password :</label>
+          <input type="password" name="password" formControlName="password" />
+          <button class="green-btn">Login</button>
+          <div style="text-align: center">
+            <span>Don't have account?</span>
+            <a
+              style="
+                color: var(--light-green);
+                margin-left: 10px;
+                cursor: pointer;
+              "
+              (click)="openSignUpForm()"
+              >Sign Up</a
+            >
+          </div>
+        </div>
+      </form>
+    </div>
+    }
+  </div>
+</section>
+

@@ -6,52 +6,30 @@ import { IProduct } from '../models/product-model';
   providedIn: 'root',
 })
 export class FavouriteService {
-  // private favouritesSubject = new BehaviorSubject<IProduct[]>(
-  //   this.getFavouritesFromLocalStorage()
-  // );
-
-  // favourites$ = this.favouritesSubject.asObservable();
-
-  // getFavouritesFromLocalStorage(): IProduct[] {
-  //   return JSON.parse(localStorage.getItem('favourites') || '[]');
-  // }
-
-  // setFavuriteToLocalStorage(productId: IProduct) {
-  //   const favs = this.getFavouritesFromLocalStorage();
-  //   if (!favs.find((p) => p.id === product.id)) {
-  //     favs.push(product);
-  //     localStorage.setItem('favourites', JSON.stringify(favs));
-  //     this.favouritesSubject.next(favs);
-  //   }
-  // }
-
-  // removeFavouriteFromLocalStorage(productId: string): void {
-  //   const favourites = this.getFavouritesFromLocalStorage();
-  //   const updatedFavourites = favourites.filter((id) => id !== productId);
-  //   localStorage.setItem('favourites', JSON.stringify(updatedFavourites));
-  // }
-
-  // isFavourite(productId: string): boolean {
-  //   const favourites = this.getFavouritesFromLocalStorage();
-  //   return favourites.includes(productId);
-  // }
-
   private favouritesSubject = new BehaviorSubject<IProduct[]>(
     this.getFavourites()
   );
   favourites$ = this.favouritesSubject.asObservable();
 
   getFavourites(): IProduct[] {
-    return JSON.parse(localStorage.getItem('favourites') || '[]');
+    const favourites = JSON.parse(localStorage.getItem('favourites') || '[]');
+    console.log(
+      'FavouriteService: getFavourites - Type of first product ID in localStorage:',
+      favourites.length > 0 ? typeof favourites[0].id : 'N/A'
+    );
+    return Array.isArray(favourites) ? favourites : [];
   }
 
   add(product: IProduct) {
-    const favs = this.getFavourites(); // 1. هات المفضلة الحالية
+    console.log(
+      'FavouriteService: add - Type of incoming product.id:',
+      typeof product.id
+    );
+    const favs = this.getFavourites();
     if (!favs.find((p) => p.id === product.id)) {
-      // 2. شوف المنتج موجود ولا لأ
-      favs.push(product); // 3. ضيف المنتج
-      localStorage.setItem('favourites', JSON.stringify(favs)); // 4. احفظ في الذاكرة
-      this.favouritesSubject.next(favs); // 5. بلغ الكل بالتغيير
+      favs.push(product);
+      localStorage.setItem('favourites', JSON.stringify(favs));
+      this.favouritesSubject.next(favs);
     }
   }
 
@@ -63,6 +41,17 @@ export class FavouriteService {
   }
 
   isFavourite(productId: string): boolean {
-    return this.getFavourites().some((p) => p.id === productId);
+    console.log(
+      'FavouriteService: isFavourite - Type of productId parameter:',
+      typeof productId
+    );
+    return this.getFavourites().some((p) => {
+      console.log(
+        `Comparing stored ID (${
+          p.id
+        }, type: ${typeof p.id}) with input ID (${productId}, type: ${typeof productId})`
+      );
+      return p.id === productId;
+    });
   }
-} 
+}

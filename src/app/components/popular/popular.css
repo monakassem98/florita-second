@@ -1,0 +1,65 @@
+/* start popular section  */
+.popular {
+  margin-top: 300px;
+  background-image: url(../../../assets/popular.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position-y: 40%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.popular h1 {
+  margin-bottom: 30px;
+}
+
+.pop-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pop {
+  position: relative;
+}
+
+.pop .img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: rgb(107, 107, 107);
+  overflow: hidden;
+}
+
+.pop .img img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.pop .img:hover > img {
+  transform: perspective(500px) translateZ(30px);
+  transition: 0.3s ease;
+}
+
+.pop .txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.pop .txt h3 {
+  color: white;
+}
+
+.animate {
+  transform: translateY(150%);
+  transition: 0.9s;
+}
+
+.animate-in {
+  transform: translateY(-30%);
+}

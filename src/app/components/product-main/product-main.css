@@ -1,0 +1,33 @@
+section {
+  background-color: var(--light-gray);
+  padding-bottom: var(--sub-margin);
+  padding-top: var(--sub-margin);
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 27%;
+  margin: auto; 
+}
+
+.upper .home {
+  color: var(--dark-green);
+  text-decoration: underline;
+}
+
+.upper .up-title {
+  font-family: var(--flower);
+  font-size: 50px;
+  color: rgb(185, 117, 128);
+}
+
+.title {
+  font-size: 50px;
+  margin: auto;
+  width: fit-content;
+  margin-top: var(--sub-margin);
+  color: var(--dark-green);
+  font-family: var(--josef);
+}

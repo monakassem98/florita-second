@@ -1,0 +1,8 @@
+<app-product-main [nameAction]="'Plants'" [titleAction]="'Best Plants'" />
+<section class="container">
+  <div class="cards-cont">
+    @for ( p of plants; track $index) {
+    <app-card [product]="p" />
+    }
+  </div>
+</section>

@@ -1,0 +1,22 @@
+<section class="popular">
+  <div class="overrlay"></div>
+  <div class="cont container">
+    <h1 class="main-heading animate" [class.animate-in]="isScrolled">
+      Popular Categories
+    </h1>
+    <div class="pop-wrapper">
+      @for (cat of category; track $index) {
+      <a [routerLink]="cat.link" class="pop-link">
+        <div class="pop">
+          <div class="img">
+            <img [src]="cat.imgUrl" alt="" />
+          </div>
+          <div class="txt">
+            <h3>{{ cat.name }}</h3>
+          </div>
+        </div>
+      </a>
+      }
+    </div>
+  </div>
+</section>

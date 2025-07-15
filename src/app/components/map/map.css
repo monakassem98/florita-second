@@ -1,0 +1,94 @@
+/* start msg  */
+.msg {
+  padding: var(--main-margin) 0;
+}
+
+.msg .container {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  overflow: hidden;
+}
+
+.msg .container .left {
+  background-color: var(--txt-color);
+  width: 50%;
+}
+
+.msg .right {
+  padding: 50px;
+  width: 50%;
+}
+
+.msg .right p {
+  color: var(--txt-color) !important;
+  font-size: var(--txt);
+  margin-bottom: var(--sub-margin);
+}
+
+.msg .right label {
+  color: var(--dark-green);
+  font-weight: 700;
+  font-family: var(--roboto);
+}
+
+.msg .right .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.msg .right .top .lft {
+  width: 49%;
+  /* background-color: red; */
+}
+
+.msg .right .top .rght {
+  width: 49%;
+  /* background-color: blue; */
+}
+
+.msg .right input,
+textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--light-gray);
+}
+
+textarea {
+  height: 100px;
+}
+
+.msg .right label {
+  margin-top: 20px;
+}
+
+.msg .right a {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid var(--txt-color);
+}
+
+/* start animation  */
+.up-animation {
+  transform: translateX(-130%);
+  transition: 1.7s;
+}
+
+.down-animation {
+  transform: translateX(130%);
+  transition: 1.7s;
+}
+
+.animate-in {
+  transform: translateX(0%);
+}

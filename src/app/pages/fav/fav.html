@@ -1,4 +1,7 @@
-<p>fav works!</p>
+<app-product-main
+  [nameAction]="'Favourites'"
+  [titleAction]="'All your favourites are here'"
+/>
 <section class="favourites">
   <div class="container cards-cont">
     @for ( p of product; track $index) {

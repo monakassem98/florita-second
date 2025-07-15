@@ -1,4 +1,12 @@
-<p>all-products works!</p>
-@for (p of products(); track $index) {
-<app-card [product]="p" />
-}
+<app-product-main
+  [nameAction]="'All&nbsp; Products'"
+  [titleAction]="'Flowers & More'"
+/>
+
+<section class="container">
+  <div class="cards-cont">
+    @for ( p of products(); track $index) {
+    <app-card [product]="p" />
+    }
+  </div>
+</section>

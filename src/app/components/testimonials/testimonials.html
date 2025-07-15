@@ -1,0 +1,33 @@
+<section class="testimonials-section">
+  <div class="overrlay"></div>
+  <h2 class="sub-heading">Testimonial</h2>
+  <h2 class="main-heading">What Our Clients Say</h2>
+
+  <swiper-container
+    #swiperRef
+    [slidesPerView]="swiperConfig.slidesPerView"
+    [spaceBetween]="swiperConfig.spaceBetween"
+    [loop]="swiperConfig.loop"
+    [pagination]="swiperConfig.pagination"
+    [navigation]="swiperConfig.navigation"
+    [autoplay]="swiperConfig.autoplay"
+    [breakpoints]="swiperConfig.breakpoints"
+    init="false"
+  >
+    <swiper-slide *ngFor="let testimonial of testimonials">
+      <div class="testimonial-card">
+        <p class="quote">"{{ testimonial.text }}"</p>
+        <div class="author-info">
+          <div class="img">
+            <img src="{{ testimonial.imgUrl }}" alt="{{ testimonial.name }}" />
+          </div>
+          <div class="txt">
+            <p class="author-name">{{ testimonial.name }}</p>
+            <p class="author-title">{{ testimonial.title }}</p>
+          </div>
+        </div>
+      </div>
+    </swiper-slide>
+  </swiper-container>
+  <div class="swiper-pagination" slot="pagination"></div>
+</section>

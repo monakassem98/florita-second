@@ -1,0 +1,59 @@
+footer {
+  background-color: rgb(79, 121, 79);
+  color: white !important;
+
+  padding: var(--main-padding) 0 20px 0;
+}
+
+.upper {
+  margin-bottom: 30px;
+}
+
+.upper h4 {
+  margin-bottom: var(--sub-margin);
+}
+
+.upper div {
+  width: 24%;
+  text-align: center;
+}
+
+footer a,
+p {
+  color: white;
+}
+footer a {
+  display: block;
+  margin-top: calc(var(--sub-margin) - 10px);
+}
+
+footer p {
+  margin-top: var(--sub-margin);
+  text-align: left;
+}
+
+footer .lower {
+  border-top: 1px solid white;
+  padding: var(--sub-padding);
+}
+
+form {
+  margin-top: 20px;
+}
+
+form input {
+  border-radius: var(--border-radius);
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+}
+
+form a {
+  width: 100%;
+  margin-top: 10px;
+}
+
+form a .i {
+  margin-right: 10px;
+}

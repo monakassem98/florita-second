@@ -6,7 +6,13 @@ import { IProduct } from '../models/product-model';
   providedIn: 'root',
 })
 export class CartService {
-  private cartSubject = new BehaviorSubject<IProduct[]>(this.getCart());
+  cartData = new BehaviorSubject<number>(0);
+
+  constructor() {
+    this.loadCartInitialData();
+  }
+
+  cartSubject = new BehaviorSubject<IProduct[]>(this.getCart());
   cart$ = this.cartSubject.asObservable();
 
   getCart(): IProduct[] {
@@ -21,6 +27,7 @@ export class CartService {
       localStorage.setItem('cart', JSON.stringify(cartList));
       this.cartSubject.next(cartList);
     }
+    this.updateCartNumber(cartList);
   }
 
   removeFromCart(productId: string) {
@@ -28,9 +35,22 @@ export class CartService {
     cartList = cartList.filter((p) => p.id !== productId);
     localStorage.setItem('cart', JSON.stringify(cartList));
     this.cartSubject.next(cartList);
+    this.updateCartNumber(cartList);
   }
 
   isAddedToCart(productId: string): boolean {
     return this.getCart().some((p) => p.id === productId);
+  }
+
+  updateCartNumber(cartItems: IProduct[] | []) {
+    this.cartData.next(cartItems.length);
+    localStorage.setItem('cart', JSON.stringify(cartItems));
+  }
+
+  private loadCartInitialData() {
+    let cart = localStorage.getItem('cart');
+    if (cart) {
+      this.cartData.next(JSON.parse(cart).length);
+    }
   }
 }

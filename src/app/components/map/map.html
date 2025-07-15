@@ -1,0 +1,36 @@
+<section class="msg">
+  <div class="container">
+    <div
+      class="left up-animation"
+      id="leafletMap"
+      [class.animate-in]="isScrolled"
+    ></div>
+    <div class="right down-animation" [class.animate-in]="isScrolled">
+      <h1 class="main-heading">Send us a message</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <form action="">
+        <div class="top">
+          <div class="lft">
+            <label for="name"> Name</label> <br />
+            <input type="text" placeholder="Name" />
+          </div>
+          <div class="rght">
+            <label for="name"> Phone </label> <br />
+            <input type="text" placeholder="Phone" />
+          </div>
+        </div>
+        <div class="mid">
+          <label for="email"> Email</label>
+          <input type="email" placeholder="Email" />
+        </div>
+        <div class="bottom">
+          <label for="msg"> Message</label>
+          <textarea type="text" placeholder="Message"></textarea>
+        </div>
+        <a class="green-btn">
+          <i class="fa-regular fa-envelope i"></i> Send Message
+        </a>
+      </form>
+    </div>
+  </div>
+</section>

@@ -73,7 +73,7 @@
 
 .down-animation {
   transform: translateY(150%);
-  transition: 0.8s;
+  transition: 1.8s;
 }
 
 .animate-pop {

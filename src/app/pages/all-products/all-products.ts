@@ -2,10 +2,11 @@ import { Component, OnInit, signal } from '@angular/core';
 import { ProductService } from '../../services/product-service';
 import { IProduct } from '../../models/product-model';
 import { Card } from "../../components/card/card";
+import { ProductMain } from "../../components/product-main/product-main";
 
 @Component({
   selector: 'app-all-products',
-  imports: [Card],
+  imports: [Card, ProductMain],
   templateUrl: './all-products.html',
   styleUrl: './all-products.css',
 })

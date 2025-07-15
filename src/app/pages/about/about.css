@@ -1,0 +1,78 @@
+.section {
+  position: relative;
+  background-image: url(../../../assets/choose-2.jpg);
+  height: 60vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.section h2 {
+  color: white;
+  font-size: 60px;
+  z-index: 500;
+  position: relative;
+}
+
+.section p {
+  color: white;
+  font-size: 24px;
+  position: relative;
+  z-index: 500;
+}
+
+.overrlay {
+  background-color: rgba(79, 79, 79, 0.471);
+}
+
+/* start insught  */
+.insight {
+  padding-top: var(--main-padding);
+  padding-bottom: var(--main-padding);
+}
+
+.insight .img {
+  height: 250px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.insight img {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--border-radius);
+}
+
+.insight .cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--sub-margin);
+}
+
+.insight .cards-container .cards {
+  padding: var(--sub-padding);
+  width: 33%;
+}
+
+.insight .cards h4 {
+  margin-top: calc(var(--sub-margin) - 10px);
+}
+
+.insight .cards span {
+  margin-top: 10px;
+  display: block;
+}
+
+.insight h1,
+.insight h2,
+.insight p {
+  text-align: center;
+}

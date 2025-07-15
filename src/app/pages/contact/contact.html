@@ -1,0 +1,100 @@
+<section class="section">
+  <div class="overrlay">
+    <div class="container">
+      <div class="center">
+        <h2>Contact Us</h2>
+        <p>We would love to hear from you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="choose-us">
+  <div class="cont container">
+    <div class="left left-animation" [class.animate-left]="isScrolled">
+      <h1 class="sub-heading">Get in touch</h1>
+      <h1 class="main-heading">
+        Whenever you need us, <br />
+        we’re here for you.
+      </h1>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+        <br />
+        luctus nec ullamcorper mattis, pulvinar dapibus leo.
+      </p>
+
+      <div class="reasons-cont">
+        <div class="reason">
+          <div class="icon">
+            <i class="fa-solid fa-location-dot i"></i>
+          </div>
+          <div class="txt">
+            <h3>Nursery</h3>
+            <p>Jln Cempaka Wangi No 22, Jakarta - Indonesia</p>
+          </div>
+        </div>
+
+        <div class="reason">
+          <div class="icon">
+            <i class="fa-regular fa-envelope i"></i>
+          </div>
+          <div class="txt">
+            <h3>Email Us</h3>
+            <p>
+              support&commat;yourdomain.tld <br />
+              hello&commat;yourdomain.tld
+            </p>
+          </div>
+        </div>
+
+        <div class="reason">
+          <div class="icon">
+            <i class="fa-solid fa-phone i"></i>
+          </div>
+          <div class="txt">
+            <h3>Call Us</h3>
+            <p>
+              Phone : +6221.2002.2012 <br />
+              Fax : +6221.2002.2013
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="img-1 right-animation" [class.animate-right]="isScrolled">
+        <img src="../../../assets/contact-2.jpg" alt="" />
+      </div>
+      <div class="img-2" #scrollAnimatedElement [@fadeUp]="animationState">
+        <img src="../../../assets/contact-3.png" />
+      </div>
+      <div class="img-3" #scrollAnimatedElement [@fadeUp]="animationState">
+        <img src="../../../assets/contact-4.png" [class.animate-pop]="" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<app-map />
+
+<section>
+  <div class="container social">
+    <h1 class="main-heading">Follow our social media</h1>
+    <div class="icons">
+      <div>
+        <i class="fa-brands fa-facebook-f i"></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-instagram i"></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-twitter i"></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-youtube i"></i>
+      </div>
+    </div>
+  </div>
+</section>

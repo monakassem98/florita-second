@@ -18,7 +18,6 @@ export class ChooseUs {
 
   checkScroll() {
     const componentPosition = this.el.nativeElement.getBoundingClientRect().top;
-    // const scrollPosition = window.scrollY;
     const windowHeight = window.innerHeight;
 
     const triggerPoint = windowHeight * 0.75;

@@ -19,3 +19,12 @@ export interface ICategory {
   imgUrl: string;
   link: string;
 }
+
+export interface IArticle {
+  title: string;
+  authorName: string;
+  date: string;
+  authorImgUrl: string;
+  mainImgUrl: string;
+  link: string;
+}

@@ -1,0 +1,13 @@
+<div (click)="toggleCart()" class="cart">
+  <p-toast />
+
+  @if(!isAddedToCart){
+  <a class="green-btn" (click)="showSuccess()" severity="success"
+    >Add to cart</a
+  >
+  } @else{
+  <a class="green-btn" (click)="showWarn()" label="Warn" severity="warn"
+    >Remove from cart</a
+  >
+  }
+</div>

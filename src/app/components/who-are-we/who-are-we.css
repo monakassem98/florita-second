@@ -32,15 +32,14 @@
 /* start animations */
 .left-animation {
   transform: translateX(-130%);
-  transition: 1.7s ease-in-out; /* Add transition here */
+  transition: 1.0s ease-in-out;
 }
 
 .right-animation {
   transform: translateX(130%);
-  transition: 1.7s ease-in-out; /* Add transition here */
+  transition: 1.0s ease-in-out;
 }
 
-/* Class to apply when animations are active */
 .animate-in {
   transform: translateX(0%);
 }

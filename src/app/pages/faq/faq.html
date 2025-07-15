@@ -1,0 +1,240 @@
+<section class="section">
+  <div class="overrlay"></div>
+  <div class="container">
+    <div class="center">
+      <h2>FAQ</h2>
+      <p>Frequently Asked Questions</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-featured">
+  <div class="container">
+    <div class="featured">
+      <div class="left">
+        <h2 class="sub-heading">Featured</h2>
+        <h1 class="main-heading">
+          Most Popular <br />
+          Questions.
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur <br />
+          adipiscing elit.
+        </p>
+      </div>
+
+      <div class="right">
+        <mat-accordion>
+          <mat-expansion-panel
+            (opened)="panelOpenState.set(true)"
+            (closed)="panelOpenState.set(false)"
+          >
+            <mat-expansion-panel-header>
+              <mat-panel-title class="accordion-header">
+                Will my bouquet look exactly like the photo?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p>
+              All our bouquets are hand-arranged, so there can be some little
+              differences. <br />
+              If local florists won’t have the exact flowers, we’ll offer you to
+              replace them with similar flowers.
+            </p>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel
+            (opened)="panelOpenState.set(true)"
+            (closed)="panelOpenState.set(false)"
+          >
+            <mat-expansion-panel-header>
+              <mat-panel-title class="accordion-header">
+                Will my private information be kept secure and confidential? Is
+                my data protected?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p>
+              This is an important question and our priority is to ensure the
+              privacy of our customers and safety of payment. <br />
+              All your private information will be kept in the strictest
+              confidence. <br />
+              We use only highly secure exchange of data protocols (SSL) to
+              transmit the data to the payment systems. <br />
+              We don’t keep any personal data on our website. Also we never pass
+              or sale your private information to anyone.
+            </p>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel
+            (opened)="panelOpenState.set(true)"
+            (closed)="panelOpenState.set(false)"
+          >
+            <mat-expansion-panel-header>
+              <mat-panel-title class="accordion-header">
+                How do I edit my order?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p>
+              Any urgent changes which need to be made to an order can only be
+              done before the order goes into processing. <br />
+              Once an order is updated to processing, all details are locked and
+              we no longer have any access to make changes. <br />
+              To edit your order contact us by phone +442045773804 (London, UK)
+              or by e-mail
+            </p>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel
+            (opened)="panelOpenState.set(true)"
+            (closed)="panelOpenState.set(false)"
+          >
+            <mat-expansion-panel-header>
+              <mat-panel-title class="accordion-header">
+                How fast you will deliver my order?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p>
+              The minimum delivery time of the bouquet depends on the city. You
+              can see the minimum delivery time by selecting the city and the
+              desired bouquet on our website and going to the cart. <br />
+              We offer same-day delivery, next-day delivery and delivery on any
+              date you like. <br />
+              During the holidays (st. Valentine’s Day, Mother's Day, Christmas
+              and New Year) the delivery time naturally increases, so we suggest
+              to make orders for holidays in advance.
+            </p>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel
+            (opened)="panelOpenState.set(true)"
+            (closed)="panelOpenState.set(false)"
+          >
+            <mat-expansion-panel-header>
+              <mat-panel-title class="accordion-header">
+                Do you contact the recipient before the delivery? What if the
+                recipient won’t be available when the courier arrives?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p>
+              We have 2 types of delivery from which you can choose: <br />
+              <br />
+              1. Preliminary call delivery We contact the recipient to reconcile
+              convenient delivery time and place. We do not mention flowers
+              during the call. <br />
+              <br />
+              2. You can specify where the florist can leave your order if the
+              recipient won’t be available (at the reception, at the neighbors,
+              etc).
+            </p>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+    </div>
+  </div>
+</section>
+
+<app-discount />
+
+<section class="section-featured">
+  <div class="container">
+    <div class="featured">
+      <div class="left">
+        <h2 class="sub-heading">Payment Questions</h2>
+        <h1 class="main-heading">
+          Payment & <br />
+          Transactions
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur <br />
+          adipiscing elit.
+        </p>
+      </div>
+
+      <div class="right">
+        <mat-accordion>
+          <mat-expansion-panel
+            (opened)="panelOpenState.set(true)"
+            (closed)="panelOpenState.set(false)"
+          >
+            <mat-expansion-panel-header>
+              <mat-panel-title class="accordion-header">
+                What are your payment options?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p>
+              You can pay for the order via one of the following payment
+              methods: <br />
+              <br />
+              <i class="fa-solid fa-circle-dot"></i> On our website:
+              https://florita.com/payment <br />
+              <br />
+              <i class="fa-solid fa-circle-dot"></i> By card (we accept
+              MasterCard, Visa and Maestro); <br />
+              <br />
+              <i class="fa-solid fa-circle-dot"></i> By PayPal; For corporate
+              orders we accept payments on our bank account.
+            </p>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel
+            (opened)="panelOpenState.set(true)"
+            (closed)="panelOpenState.set(false)"
+          >
+            <mat-expansion-panel-header>
+              <mat-panel-title class="accordion-header">
+                Why do it take so long for you to receive my payment? / My
+                payment still hasn’t arrived
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p>
+              1. You’ve paid for the order via PayPal. This online payment
+              system can stop your payment transfer for verification. Then your
+              money will be either returned to your account, or comes to our
+              account. <br />
+              <br />
+              2. When transferring funds through a Bank operator, the payment
+              will be credited to our account within 3 working days. <br />
+              Only representatives of the payment system are competent to answer
+              any questions about the payment delays.
+            </p>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel
+            (opened)="panelOpenState.set(true)"
+            (closed)="panelOpenState.set(false)"
+          >
+            <mat-expansion-panel-header>
+              <mat-panel-title class="accordion-header">
+                May I pay in euros or another currency other than US dollars?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p>
+              We accept american, canadian, australian dollars and euros. You
+              can also pay by your credit card or use Paypal.
+            </p>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel
+            (opened)="panelOpenState.set(true)"
+            (closed)="panelOpenState.set(false)"
+          >
+            <mat-expansion-panel-header>
+              <mat-panel-title class="accordion-header">
+                How fast you will deliver my order?
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p>
+              The minimum delivery time of the bouquet depends on the city. You
+              can see the minimum delivery time by selecting the city and the
+              desired bouquet on our website and going to the cart. <br />
+              We offer same-day delivery, next-day delivery and delivery on any
+              date you like. <br />
+              During the holidays (st. Valentine’s Day, Mother's Day, Christmas
+              and New Year) the delivery time naturally increases, so we suggest
+              to make orders for holidays in advance.
+            </p>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+    </div>
+  </div>
+</section>

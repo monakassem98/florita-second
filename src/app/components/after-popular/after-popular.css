@@ -1,0 +1,89 @@
+.after-pop {
+  padding: var(--main-padding) 0;
+}
+
+.after-pop .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.after-pop a {
+  display: inline-block;
+}
+
+.after-pop .left,
+.right {
+  width: 48%;
+  height: 400px;
+  padding: 50px;
+  position: relative;
+  overflow: hidden;
+  background-color: #dcdbe0;
+  border-radius: 10px;
+}
+
+.after-pop .right {
+  background-color: #dfe2eb !important;
+}
+
+.after-pop .left .img,
+.after-pop .right .img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.after-pop .left img,
+.after-pop .right img {
+  width: 100%;
+}
+
+.after-pop .left:hover img,
+.after-pop .right:hover img {
+  transform: translateX(-10%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.after-pop .left .txt,
+.after-pop .right .txt {
+  position: absolute;
+  z-index: 3;
+}
+
+.after-pop .left h1,
+.after-pop .right h1 {
+  color: white;
+}
+
+.overrlay {
+  z-index: 2;
+  display: none;
+}
+.after-pop .left:hover .overrlay,
+.after-pop .right:hover .overrlay {
+  display: block;
+
+  background-color: rgba(0, 0, 0, 0.586);
+}
+
+p {
+  color: white;
+}
+
+/* start animations */
+.after-left-animation {
+  transform: translateY(-130%);
+  transition: 1.3s ease-in-out;
+}
+
+.after-right-animation {
+  transform: translateY(130%);
+  transition: 1.3s ease-in-out;
+}
+
+.after-animate-in {
+  transform: translateX(0%);
+}
